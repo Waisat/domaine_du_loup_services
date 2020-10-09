@@ -792,9 +792,9 @@ footer h6{
     }
 
     h1{
-        margin: 0 35%;
+        margin: 0 33%;
         padding: 2% 0;
-        font-size: 150%;
+        font-size: 120%;
         color: #F4B894;
         width: 40%;
         font-family: 'Merriweather', serif;
@@ -806,7 +806,7 @@ footer h6{
         flex-wrap: wrap;
 
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
         z-index: 1;
 
     }
@@ -906,7 +906,7 @@ padding-left: 10%;
     section{
         padding: 3% 0;
         margin: 0 auto;
-        width: 60%;
+        width: 80%;
     }
 
     section h4{
@@ -979,7 +979,7 @@ padding-left: 10%;
         height: auto;
         border: 2px solid #F4B894;
         background-color: #F4B894;
-        margin-left:75% ;
+        margin-left:60% ;
     }
 
     .button_action:hover{
@@ -1004,7 +1004,7 @@ padding-left: 10%;
 
     #our_services_section{
 
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
 
