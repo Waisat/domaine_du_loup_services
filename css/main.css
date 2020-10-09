@@ -244,7 +244,7 @@ footer h6{
     color: #F4B894;
     margin: 0 0 0 45%;
     padding: 1% 0;
-    width: 100%;
+    width: 50%;
 
 }
 }
@@ -498,7 +498,7 @@ footer h6{
         color: #F4B894;
         margin: 0 0 0 45%;
         padding: 2% 0;
-        width: 100%;
+        width: 50%;
 
     }
 
@@ -764,7 +764,7 @@ footer h6{
         color: #F4B894;
         margin: 0 0 0 38%;
         padding: 2% 0;
-        width: 100%;
+        width: 50%;
 
     }
 
@@ -1028,7 +1028,7 @@ padding-left: 10%;
         color: #F4B894;
         margin: 0 0 0 36%;
         padding: 3% 0;
-        width: 100%;
+        width: 50%;
 
     }
 
@@ -1237,6 +1237,8 @@ padding-left: 10%;
     #our_services_section{
         display: flex;
         flex-direction: column;
+        width: 80%;
+        overflow: hidden;
     }
 
     #our_services_section .button_action{
@@ -1303,7 +1305,7 @@ padding-left: 10%;
         color: #F4B894;
         margin: 0 0 0 30%;
         padding: 5% 0;
-        width: 100%;
+        width: 50%;
 
     }
 
@@ -1571,7 +1573,7 @@ padding-left: 10%;
         color: #F4B894;
         margin: 0 0 0 45%;
         padding: 5% 0;
-        width: 100%;
+        width: 50%;
 
     }
 }
