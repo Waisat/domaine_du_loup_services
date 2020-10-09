@@ -46,7 +46,7 @@
 
     .detail_section article p {
         text-align: justify;
-        font-size: 90%;
+        font-size: 100%;
         font-family: 'Roboto Slab', serif;
         width: 70%;
         color: #7C858A;
@@ -61,23 +61,15 @@
     }
 
 
-    .button_site {
-        width: 30%;
-        height: 8%;
-        margin: 10% 0 0 70%;
-        background-color: #F4B894;
 
-    }
-
-    .button_site a {
-        padding-top: 2%;
-
-        text-decoration: none;
-        color: white;
-    }
 
     .detail_article_text div {
         padding-top: 2%;
+    }
+
+    .detail_contact li a{
+        text-decoration: none;
+        color: #658DC6;
     }
 
 
@@ -167,6 +159,11 @@
 
     .detail_article_text div {
         padding-top: 2%;
+    }
+
+    .detail_contact li a{
+        text-decoration: none;
+        color: #658DC6;
     }
 }
 
@@ -258,6 +255,10 @@
         padding-top: 2%;
     }
 
+    .detail_contact li a{
+        text-decoration: none;
+        color: #658DC6;
+    }
 
 }
 
@@ -348,7 +349,10 @@
     .detail_article_text div {
         padding-top: 2%;
     }
-
+    .detail_contact li a{
+        text-decoration: none;
+        color: #658DC6;
+    }
 
 
 }
