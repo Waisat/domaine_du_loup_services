@@ -1,0 +1,354 @@
+
+@media only screen and (min-width: 1400px) {
+
+    .detail_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .detail_article_text {
+    width: 70%;
+    }
+
+    .detail_section article .logo {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .detail_section article .logo li {
+        padding: 2%;
+
+    }
+
+    .detail_section article .detail_contact {
+        padding-top: 3%;
+    }
+
+    .detail_section article .detail_contact li {
+        font-family: 'Roboto Slab', serif;
+        padding-bottom: 1%;
+        color: #7C858A
+    }
+
+    .detail_section article ul li {
+        list-style: none;
+
+    }
+
+    .detail_section article ul li img {
+        width: 50%;
+
+    }
+
+
+    .detail_section article p {
+        text-align: justify;
+        font-size: 90%;
+        font-family: 'Roboto Slab', serif;
+        width: 70%;
+        color: #7C858A;
+    }
+    .detail_img_article{
+        width: 30%;
+    }
+
+
+    .size_img{
+        width: 100%;
+    }
+
+
+    .button_site {
+        width: 30%;
+        height: 8%;
+        margin: 10% 0 0 70%;
+        background-color: #F4B894;
+
+    }
+
+    .button_site a {
+        padding-top: 2%;
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .detail_article_text div {
+        padding-top: 2%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .detail_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .detail_article_text {
+        width: 70%;
+
+    }
+    .detail_img_article{
+        width: 30%;
+    }
+
+
+
+
+    .detail_section article .logo {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .detail_section article .logo li {
+        padding: 2%;
+
+    }
+
+    .detail_section article .detail_contact {
+        padding-top: 3%;
+    }
+
+    .detail_section article .detail_contact li {
+        font-family: 'Roboto Slab', serif;
+        padding-bottom: 1%;
+        color: #7C858A
+    }
+
+    .detail_section article ul li {
+        list-style: none;
+
+    }
+
+    .detail_section article ul li img {
+        width: 80%;
+
+    }
+
+
+    .detail_section article p {
+        text-align: justify;
+        font-size: 90%;
+        font-family: 'Roboto Slab', serif;
+        width: 70%;
+        color: #7C858A;
+    }
+
+
+    .size_img{
+        width: 100%;
+    }
+
+
+
+    .button_site {
+        width: 50%;
+        height: 8%;
+        margin: 10% 0 0 70%;
+        background-color: #F4B894;
+
+    }
+
+    .button_site a {
+        padding-top: 1%;
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .detail_article_text div {
+        padding-top: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 1080px) {
+
+
+    .detail_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .detail_article_text {
+        width: 70%;
+
+    }
+    .detail_img_article{
+        width: 30%;
+    }
+
+
+
+
+    .detail_section article .logo {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .detail_section article .logo li {
+        padding: 2%;
+
+    }
+
+    .detail_section article .detail_contact {
+        padding-top: 2%;
+    }
+
+    .detail_section article .detail_contact li {
+        font-family: 'Roboto Slab', serif;
+        padding-bottom: 1%;
+        color: #7C858A
+    }
+
+    .detail_section article ul li {
+        list-style: none;
+
+    }
+
+    .detail_section article ul li img {
+        width: 80%;
+
+    }
+
+
+    .detail_section article p {
+        text-align: left;
+        font-size: 90%;
+        font-family: 'Roboto Slab', serif;
+        width: 70%;
+        color: #7C858A;
+    }
+
+
+    .size_img{
+        width: 100%;
+    }
+
+
+
+    .button_site {
+        width: 50%;
+        height: 8%;
+        margin: 10% 0 0 70%;
+        background-color: #F4B894;
+
+    }
+
+    .button_site a {
+        padding-top: 1%;
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .detail_article_text div {
+        padding-top: 2%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .detail_section {
+        display: flex;
+        flex-direction: column-reverse;
+
+
+    }
+
+    .detail_article_text {
+        width: 100%;
+
+    }
+    .detail_img_article{
+        width: 100%;
+    }
+
+
+
+
+    .detail_section article .logo {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .detail_section article .logo li {
+        padding: 2%;
+
+    }
+
+    .detail_section article .detail_contact {
+        padding-top: 2%;
+    }
+
+    .detail_section article .detail_contact li {
+        font-family: 'Roboto Slab', serif;
+        padding-bottom: 1%;
+        color: #7C858A
+    }
+
+    .detail_section article ul li {
+        list-style: none;
+
+    }
+
+    .detail_section article ul li img {
+        width: 80%;
+
+    }
+
+
+    .detail_section article p {
+        text-align: left;
+        font-size: 90%;
+        font-family: 'Roboto Slab', serif;
+        width: 70%;
+        color: #7C858A;
+    }
+
+
+    .size_img{
+        width: 100%;
+    }
+
+
+
+    .button_site {
+        width: 50%;
+        height: 8%;
+        margin: 10% 0 0 70%;
+        background-color: #F4B894;
+
+    }
+
+    .button_site a {
+        padding-top: 1%;
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .detail_article_text div {
+        padding-top: 2%;
+    }
+
+
+
+}

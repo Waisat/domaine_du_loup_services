@@ -1,0 +1,29 @@
+{
+  "name": "domaine_du_loup",
+  "version": "1.0.0",
+  "description": "espace-commercial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waisat/domaine_du_loup.git"
+  },
+  "keywords": [
+    "0794"
+  ],
+  "author": "j-l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waisat/domaine_du_loup/issues"
+  },
+  "homepage": "https://github.com/Waisat/domaine_du_loup#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
