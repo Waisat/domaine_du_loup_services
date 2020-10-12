@@ -269,8 +269,8 @@ footer h6{
     }
 
     h1{
-        margin: 0 40%;
-        padding: 2% 0;
+        margin: 0 auto;
+        padding: 2%;
         font-size: 200%;
         color: #F4B894;
         width: 40%;
@@ -282,6 +282,7 @@ footer h6{
         display: flex;
         flex-direction: row;
         margin: 0 auto;
+        padding: 2%;
         width: 70%;
         z-index: 1;
 
@@ -524,8 +525,8 @@ footer h6{
     }
 
     h1{
-        margin: 0 35%;
-        padding: 2% 0;
+        margin: 0 auto;
+        padding: 3%;
         font-size: 170%;
         color: #F4B894;
         width: 40%;
@@ -536,7 +537,7 @@ footer h6{
     .mainNav {
         display: flex;
         flex-wrap: wrap;
-
+        padding: 2%;
         margin: 0 auto;
         width: 70%;
         z-index: 1;
@@ -792,8 +793,8 @@ footer h6{
     }
 
     h1{
-        margin: 0 33%;
-        padding: 2% 0;
+        margin: 0 auto;
+        padding:2%;
         font-size: 120%;
         color: #F4B894;
         width: 40%;
@@ -804,7 +805,7 @@ footer h6{
     .mainNav {
         display: flex;
         flex-wrap: wrap;
-
+        padding: 2%;
         margin: 0 auto;
         width: 80%;
         z-index: 1;
@@ -1056,8 +1057,8 @@ padding-left: 10%;
 
 
     h1{
-        margin: 0 35%;
-        padding: 2% 0;
+        margin: 0 auto;
+        padding: 2%;
         font-size: 100%;
         color: #F4B894;
         width: 50%;
@@ -1069,7 +1070,8 @@ padding-left: 10%;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        width:100%;
+        padding: 2%;
+        width:80%;
         z-index: 1;
 
     }
@@ -1335,7 +1337,7 @@ padding-left: 10%;
 
     h1{
         margin: 0 auto;
-        padding: 2% 0;
+        padding: 2%;
         font-size: 100%;
         color: #F4B894;
         width: 50%;
@@ -1346,6 +1348,7 @@ padding-left: 10%;
     .mainNav {
         display: flex;
         flex-wrap: wrap;
+        padding: 2%;
         margin: 0 auto;
         width:80%;
         z-index: 1;
@@ -1605,14 +1608,14 @@ padding-left: 10%;
     }
     nav{
 
-        width: 50%;
+        width: 100%;
         background-color:white;
 
     }
 
     h1{
-        margin: 0 20%;
-        padding: 2% 0;
+        margin: 0 auto;
+        padding: 2%;
         font-size: 100%;
         color: #F4B894;
         width: 60%;
@@ -1622,9 +1625,9 @@ padding-left: 10%;
 
     .mainNav {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
 
-
+        padding: 2%;
         width:100%;
         z-index: 1;
 
@@ -1649,7 +1652,9 @@ padding-left: 10%;
 
 
 
+
     .mainNav li a{
+
         text-decoration: none;
     }
 
@@ -1672,6 +1677,7 @@ padding-left: 10%;
     }
 
     .services_nav li a{
+        font-size: 12px;
         width: 100%;
         text-decoration: none;
         color: white;
