@@ -784,7 +784,7 @@ footer h6{
         width: 100%;
     }
     nav{
-
+        margin: 0 auto;
         width: 100%;
         background-color:white;
 
@@ -1048,18 +1048,19 @@ padding-left: 10%;
         width: 100%;
     }
     nav{
-
+        margin: 0 auto;
         width: 80%;
         background-color:white;
 
     }
 
+
     h1{
-        margin: 0 20%;
+        margin: 0 35%;
         padding: 2% 0;
-        font-size: 110%;
+        font-size: 100%;
         color: #F4B894;
-        width: 60%;
+        width: 50%;
         font-family: 'Merriweather', serif;
     }
 
@@ -1094,7 +1095,7 @@ padding-left: 10%;
     .mainNav li:nth-child(4){
 
 
-        padding-left: 20%;
+        padding-left: 18%;
 
 
 
@@ -1123,6 +1124,7 @@ padding-left: 10%;
     }
 
     .services_nav li a{
+        font-size: 12px;
         width: 100%;
         text-decoration: none;
         color: white;
@@ -1155,6 +1157,7 @@ padding-left: 10%;
 
 
     header{
+        width: 100%;
         height: 100%;
         background-color: #0F4C81;
         z-index: -1;
@@ -1185,9 +1188,9 @@ padding-left: 10%;
 
     article p{
 
-       
+
         font-family: 'Roboto Slab', serif;
-        width: 80%;
+        width: 100%;
         color: #7C858A;
 
     }
@@ -1311,6 +1314,283 @@ padding-left: 10%;
 
 }
 
+
+@media only screen and (max-width: 374px) {
+
+    body{
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    main{
+        width: 100%;
+    }
+    nav{
+
+        width: 100%;
+        background-color:white;
+
+    }
+
+
+    h1{
+        margin: 0 auto;
+        padding: 2% 0;
+        font-size: 100%;
+        color: #F4B894;
+        width: 50%;
+        font-family: 'Merriweather', serif;
+    }
+
+
+    .mainNav {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width:100%;
+        z-index: 1;
+
+    }
+
+
+    h2{
+        font-size: 80%;
+        text-align: center;
+        color: #658DC6;
+
+    }
+
+
+    .mainNav li{
+
+        list-style: none;
+        padding: 0 2%;
+        font-family: 'Courier Prime', monospace;
+
+
+    }
+
+    .mainNav li:nth-child(4){
+
+
+        padding-left: 18%;
+
+
+
+    }
+
+    .mainNav li a{
+        text-decoration: none;
+    }
+
+
+    .mainNav li :hover{
+        color: #F4B894;
+    }
+    .services_nav{
+        padding: 1% 2%;
+        width: auto;
+        height: auto;
+        background-color: #0E487B;
+        position: absolute;
+        z-index: 0;
+        display: none;
+    }
+
+    .services_nav li{
+        padding: 2% 0;
+    }
+
+    .services_nav li a{
+        font-size: 12px;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+
+    #health_hover, #wellness_hover, #habitation_hover, #association_hover{
+        cursor: pointer;
+
+
+    }
+
+
+
+    #health_hover:hover  #health_nav{
+        display: block;
+    }
+
+
+    #wellness_hover:hover #wellness_nav{
+        display: block;
+    }
+
+    #habitation_hover:hover  #habitat_nav{
+        display: block;
+    }
+
+    #association_hover:hover  #association_nav{
+        display: block;
+    }
+
+
+    header{
+        width: 100%;
+        height: 100%;
+        background-color: #0F4C81;
+        z-index: -1;
+    }
+
+    h3{
+        margin: 0 38%;
+        padding-top: 2%;
+        font-size: 400%;
+        color: #F4B894;
+    }
+
+    section{
+        padding: 3% 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section h4{
+        font-size: 100%;
+        border-bottom: 25px #0E487B solid;
+        border-radius: 30px;
+        width: 100%;
+        padding-bottom: 4%;
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+    }
+
+    article p{
+
+
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+        color: #7C858A;
+
+    }
+
+    #bgc_services{
+        width: 100%;
+        background-color: rgba(101, 141, 198, 0.1);
+    }
+
+    .services_card{
+        margin-top: 4%;
+
+        width: 100%;
+        height: 25%;
+    }
+
+
+    .services_article{
+
+
+        background-color: white;
+        border-radius: 20px;
+
+
+        padding: 5% 5%;
+    }
+
+    .services_article ul{
+        height: 8rem;
+    }
+
+    .services_article img{
+        text-align: center;
+        width:100%;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .services_article h5{
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+        font-size: 100%;
+
+    }
+
+    #our_services_section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    #our_services_section .button_action{
+
+        margin-top:3% ;
+
+    }
+
+    .button_action{
+        width: auto;
+        height: auto;
+        border: 2px solid #F4B894;
+        background-color: #F4B894;
+        margin-left:50% ;
+    }
+
+    .button_action:hover{
+        cursor: pointer;
+    }
+
+    .button_action p{
+        padding: 1%;
+        width: 100%;
+        color: white;
+
+    }
+
+    .modify li{
+        list-style: none;
+    }
+
+    .modify li a{
+        text-decoration: none;
+        color: #658DC6;
+    }
+
+    #our_services_section{
+
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+    #our_services_section ul li{
+
+        font-family: 'Noto Serif', serif;
+
+    }
+
+
+
+
+    footer{
+
+        height: 4rem;
+        background-color: #0F4C81;
+    }
+
+    footer h6{
+        font-size: 100%;
+        color: #F4B894;
+        margin: 0 0 0 30%;
+        padding: 5% 0;
+        width: 50%;
+
+    }
+
+
+}
 
 @media only screen and (max-width: 298px) {
 
