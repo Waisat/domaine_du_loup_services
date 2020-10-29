@@ -127,7 +127,6 @@ export class CarouselClass {
     }
 
 
-
     generateNewCarousel(mainCarousel,  previousCarousel, numberImg, folderImg){
         let currentCarousel=[];
         let randNewArray;
@@ -139,7 +138,6 @@ export class CarouselClass {
         const getHref= document.getElementsByClassName('href');
         const getImg= document.getElementsByClassName('imgOfCarousel');
         for(let i=0; i <= previousCarousel.length-1; i++){
-
             mainCarousel.push(previousCarousel[i])
         }
 
