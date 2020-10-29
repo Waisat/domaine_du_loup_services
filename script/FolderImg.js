@@ -118,7 +118,7 @@ export const FolderImg=[{
     {
         id:'',
         name:'WoodStone',
-        link:'./habitat/woodStock.html',
+        link:'./habitat/woodStone.html',
         img:'woodStone.jpg'
 
     },
