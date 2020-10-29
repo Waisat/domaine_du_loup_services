@@ -30,6 +30,7 @@ export class CarouselClass {
         //createBoard.style.backgroundColor='blue';
         createBoard.style.display='flex';
         createBoard.style.flexDirection='row';
+        createBoard.style.margin='0 auto'
         console.log('grabCarousel', grabIdCarousel);
 
 
@@ -83,9 +84,8 @@ export class CarouselClass {
                 const createLi= document.createElement('li');
                 createLi.style.listStyle='none';
                 createLi.className='liInfo'+ loopLi;
-
-
                 createUl.appendChild(createLi);
+
                 if(createLi.className==='liInfo1'){
                     const createElementH3= document.createElement('h4');
                     createLi.appendChild(createElementH3);
