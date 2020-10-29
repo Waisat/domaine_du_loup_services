@@ -36,17 +36,48 @@ h1{
 
 }
 
+#firstThree{
 
-h2{
-    text-align: center;
-    color: #658DC6;
+    display: flex;
+    flex-direction: row;
 
 }
 
 
+#secondThree{
+
+   margin-left:  10%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+h2{
+
+
+    text-align: left;
+    color: #658DC6;
+
+}
+
+#mode_hover h2{
+
+    width: 13rem;
+
+}
+
+    #wellness_hover h2{
+        width: 10rem;
+    }
+
 .mainNav li{
+    width: 100%;
     list-style: none;
-    padding: 0 5%;
+    padding: 0 7%;
     font-family: 'Courier Prime', monospace;
 
 
@@ -80,7 +111,7 @@ h2{
     color: white;
 }
 
-#health_hover, #wellness_hover, #habitation_hover, #association_hover{
+#health_hover, #wellness_hover, #habitation_hover, #association_hover, #mode_hover{
     cursor: pointer;
 
 
@@ -104,6 +135,11 @@ h2{
 #association_hover:hover  #association_nav{
     display: block;
 }
+
+    #mode_hover:hover  #mode_nav{
+        display: block;
+    }
+
 
 header{
     height: 100%;
@@ -219,10 +255,24 @@ article p{
 
 
     display: flex;
-    flex-wrap: wrap;
+  flex-direction: column;
     justify-content: space-between;
 
 
+}
+
+#thirdService{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#twoLast{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #our_services_section ul li{
@@ -278,26 +328,56 @@ footer h6{
     }
 
 
+
     .mainNav {
         display: flex;
         flex-direction: row;
         margin: 0 auto;
-        padding: 2%;
         width: 70%;
         z-index: 1;
 
     }
 
+    #firstThree{
 
-    h2{
-
-        text-align: center;
-        color: #658DC6;
+        display: flex;
+        flex-direction: row;
 
     }
 
 
+    #secondThree{
+
+        margin-left:  4%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+
+
+    h2{
+
+
+        text-align: left;
+        color: #658DC6;
+
+    }
+
+    #mode_hover h2{
+
+        width: 13rem;
+
+    }
+
+    #wellness_hover h2{
+        width: 10rem;
+    }
+
     .mainNav li{
+        width: 100%;
         list-style: none;
         padding: 0 2%;
         font-family: 'Courier Prime', monospace;
@@ -403,7 +483,7 @@ footer h6{
     .services_card{
         margin-top: 4%;
 
-        width: 40%;
+        width: 30%;
         height: 25%;
     }
 
@@ -441,6 +521,7 @@ footer h6{
 
     }
 
+
     .button_action{
         width: auto;
         height: auto;
@@ -473,10 +554,24 @@ footer h6{
 
 
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-between;
 
 
+    }
+
+    #thirdService{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #twoLast{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     #our_services_section ul li{
@@ -534,20 +629,37 @@ footer h6{
     }
 
 
+
+
     .mainNav {
         display: flex;
-        flex-wrap: wrap;
-        padding: 2%;
-        margin: 0 auto;
+        flex-direction: column;
+
+
         width: 70%;
         z-index: 1;
 
     }
 
 
+    #firstThree{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #secondThree{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     h2{
 
-        text-align: center;
+        text-align: left;
         color: #658DC6;
 
     }
@@ -555,20 +667,20 @@ footer h6{
 
     .mainNav li{
         list-style: none;
-        padding: 0 4%;
+        padding: 0 2%;
         font-family: 'Courier Prime', monospace;
 
 
     }
 
-    .mainNav li:nth-child(4){
+   /* .mainNav li:nth-child(4){
 
 
-        padding-left: 20%;
+        padding-left: 15%;
 
 
 
-    }
+    }*/
 
     .mainNav li a{
         text-decoration: none;
@@ -577,6 +689,10 @@ footer h6{
 
     .mainNav li :hover{
         color: #F4B894;
+    }
+
+    ul.mainNav{
+        margin: 0 auto;
     }
     .services_nav{
         padding: 1% 2%;
@@ -668,8 +784,8 @@ footer h6{
     .services_card{
         margin-top: 4%;
 
-        width: 40%;
-        height: 25%;
+        width: 30%;
+
     }
 
 
@@ -697,7 +813,7 @@ footer h6{
     .services_article h5{
         color: #658DC6;
         font-family: 'Noto Serif', serif;
-        font-size: 115%;
+        font-size: 100%;
 
     }
 
@@ -736,22 +852,31 @@ footer h6{
     }
 
     #our_services_section{
-
-
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-between;
-
 
     }
 
+
+    #thirdService{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #twoLast{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     #our_services_section ul li{
 
         font-family: 'Noto Serif', serif;
 
     }
-
-
 
 
     footer{
@@ -802,20 +927,40 @@ footer h6{
     }
 
 
+
     .mainNav {
         display: flex;
-        flex-wrap: wrap;
-        padding: 2%;
-        margin: 0 auto;
-        width: 80%;
+        flex-direction: column;
+        justify-content: left;
+
+
+        width: 70%;
         z-index: 1;
 
     }
 
 
-    h2{
+    #firstThree{
 
-        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #secondThree{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+    h2{
+        font-size: 100%;
+        text-align: left;
         color: #658DC6;
 
     }
@@ -832,10 +977,14 @@ footer h6{
     .mainNav li:nth-child(4){
 
 
-padding-left: 10%;
 
 
 
+
+    }
+
+    ul.mainNav{
+        margin: 0;
     }
 
     .mainNav li a{
@@ -911,7 +1060,7 @@ padding-left: 10%;
     }
 
     section h4{
-        font-size: 150%;
+        font-size: 100%;
         border-bottom: 25px #0E487B solid;
         border-radius: 30px;
         width: 80%;
@@ -1004,11 +1153,25 @@ padding-left: 10%;
     }
 
     #our_services_section{
-
-        width: 80%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
 
+    }
+
+
+    #thirdService{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #twoLast{
+        padding-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     #our_services_section ul li{
@@ -1065,21 +1228,42 @@ padding-left: 10%;
         font-family: 'Merriweather', serif;
     }
 
+    ul.mainNav{
+
+        margin: 0;
+    }
+
 
     .mainNav {
         display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        padding: 2%;
-        width:80%;
+        flex-direction: column;
+        justify-content: left;
+        width: 90%;
         z-index: 1;
 
     }
 
 
+    #firstThree{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #secondThree{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
     h2{
-        font-size: 80%;
-        text-align: center;
+        font-size: 100%;
+        text-align: left;
         color: #658DC6;
 
     }
@@ -1111,6 +1295,8 @@ padding-left: 10%;
     .mainNav li :hover{
         color: #F4B894;
     }
+
+
     .services_nav{
         padding: 1% 2%;
         width: auto;
