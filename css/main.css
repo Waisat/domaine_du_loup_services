@@ -327,6 +327,7 @@ footer h6{
 
     h1{
         margin: 0 auto;
+        text-align: center;
         padding: 3%;
         font-size: 170%;
         color: #F4B894;
@@ -639,6 +640,7 @@ footer h6{
 
     h1{
         margin: 0 auto;
+        text-align: center;
         padding:2%;
         font-size: 120%;
         color: #F4B894;
@@ -917,6 +919,7 @@ footer h6{
 
     h1{
         margin: 0 auto;
+        text-align: center;
         padding: 2%;
         font-size: 100%;
         color: #F4B894;
