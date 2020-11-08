@@ -46,7 +46,8 @@ export class CarouselClass {
             switch (numberImg) {
                 case numberImg=4:
                     createUl.style.width='20%';
-                   createImg.style.height='150px'
+                   createImg.style.height='150px';
+                   createImg.style.borderRadius='10px'
 
                     break;
                 case numberImg=3:
@@ -57,6 +58,7 @@ export class CarouselClass {
                     break;
                 case numberImg=1:
                     createUl.style.width='80%';
+                    createImg.style.height='100px';
                     break;
             }
 

@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 $('#toService').click(function () {
 
-        let servicesSection=  $('#our_services_section');
+        let servicesSection=  $('#bgc_services');
 
             $('html, body').animate({
                 scrollTop:servicesSection.offset().top

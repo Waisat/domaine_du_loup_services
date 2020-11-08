@@ -1032,7 +1032,7 @@ footer h6{
     h3{
         margin: 0 38%;
         padding-top: 2%;
-        font-size: 400%;
+        font-size: 100%;
         color: #F4B894;
     }
 
@@ -1050,6 +1050,10 @@ footer h6{
         padding-bottom: 4%;
         color: #658DC6;
         font-family: 'Noto Serif', serif;
+    }
+
+    #bgc_services h4{
+       font-size: 100%;
     }
 
     article p{
