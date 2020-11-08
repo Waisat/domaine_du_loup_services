@@ -52,13 +52,14 @@ export class CarouselClass {
                     break;
                 case numberImg=3:
                     createUl.style.width='30%';
+                    createImg.style.height='50px';
                     break;
                 case  numberImg=2:
                     createUl.style.width='40%';
                     break;
                 case numberImg=1:
                     createUl.style.width='80%';
-                    createImg.style.height='100px';
+
                     break;
             }
 
@@ -97,7 +98,10 @@ export class CarouselClass {
                     createLi.appendChild(createElementH3);
                     createElementH3.className='h3Title';
                     createElementH3.style.color='#F4B894';
-                    createElementH3.style.marginLeft='20%';
+                    createElementH3.style.margin='0 auto';
+                    createElementH3.style.textAlign='center';
+                    createElementH3.style.paddingBottom='5% ';
+                    createElementH3.style.width='100%'
                     createElementH3.innerHTML=newArray[i].name;
 
                 }
