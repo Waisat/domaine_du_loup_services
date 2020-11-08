@@ -307,7 +307,10 @@ footer h6{
 
 
 
-@media only screen and (max-device-width: 1080px) {
+@media only screen and (min-device-width: 780px)
+    and (max-device-width: 1080px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) {
 
 
     body{
