@@ -183,7 +183,7 @@
 
     }
     .detail_img_article{
-        width: 30%;
+        width: 50%;
     }
 
 
@@ -214,7 +214,7 @@
     }
 
     .detail_section article ul li img {
-        width: 80%;
+        width: 40%;
 
     }
 
@@ -309,7 +309,7 @@
     }
 
     .detail_section article ul li img {
-        width: 80%;
+        width: 40%;
 
     }
 
@@ -351,6 +351,7 @@
         text-decoration: none;
         color: #658DC6;
     }
+
 
 
 }

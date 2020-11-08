@@ -51,7 +51,7 @@ export const FolderImg=[{
 
     {
         id:'',
-        name:'Cours de Dance',
+        name:'Ecole de Danse',
         link:'./wellness/danse.html',
         img:'danse.jpg'
 
@@ -93,7 +93,7 @@ export const FolderImg=[{
 
     {
         id:'',
-        name:'kinésithérapeute',
+        name:'Kinésithérapeute',
         link:'./health/kine.html',
         img:'kinesitherapeute.jpg'
 

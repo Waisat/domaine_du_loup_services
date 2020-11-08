@@ -14,8 +14,15 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 4)
+    if (window.matchMedia("(min-width:700px)").matches) {
 
+        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 4)
 
+    }
+
+    if(window.matchMedia("(max-width:699px)").matches){
+        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 1)
+
+    }
 
 });

@@ -20,17 +20,19 @@ export class CarouselClass {
         let checkArrayVerify=[];
 
         createBoard.id='mainSlides';
-        grabIdCarousel.style.width='1200px';
+        grabIdCarousel.style.width='75%';
        // grabIdCarousel.style.height='500px';
         grabIdCarousel.style.margin='0 auto';
         grabIdCarousel.appendChild(createBoard);
-        createBoard.style.width='90%';
+        createBoard.style.width='100%';
        // createBoard.style.height='60%';
         //createBoard.style.margin='0 auto';
         //createBoard.style.backgroundColor='blue';
         createBoard.style.display='flex';
         createBoard.style.flexDirection='row';
+        createBoard.style.justifyContent='space-between'
         createBoard.style.margin='0 auto'
+
         console.log('grabCarousel', grabIdCarousel);
 
 
@@ -44,6 +46,8 @@ export class CarouselClass {
             switch (numberImg) {
                 case numberImg=4:
                     createUl.style.width='20%';
+                   createImg.style.height='150px'
+
                     break;
                 case numberImg=3:
                     createUl.style.width='30%';
