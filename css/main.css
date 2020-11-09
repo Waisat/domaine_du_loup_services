@@ -341,8 +341,7 @@ footer h6{
 
     .mainNav {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+
         -webkit-flex-wrap: wrap;
         -webkit-justify-content: center;
 
