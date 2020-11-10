@@ -193,7 +193,7 @@ export class CarouselClass {
                     getImg[b].title=currentCarousel[b].name;
                     getImg[b].alt=currentCarousel[b].name;
 
-                   // this.FadeIn(getImg[b], undefined)
+                   this.fadeIn(getImg[b], undefined, undefined)
                 }
 
             }
@@ -207,21 +207,40 @@ export class CarouselClass {
 
     }
 
-  /*  FadeIn(objectToFade, opacityReturn) {
+    setFadeIn(objectToFade, opacityReturn, stockInterval){
+       let convertOpacityReturn=  parseInt(opacityReturn);
+
+        if(convertOpacityReturn <=1){
+            let stockInterval=   setTimeout(()=>this.fadeIn(objectToFade, opacityReturn, stockInterval), 100)
+        }
+        else {
+            clearTimeout(stockInterval)
+        }
+
+    }
+
+    fadeIn(objectToFade, opacityReturn, stockInterval) {
         let opacityStart=0;
         let i;
-        const Increase=0.3;
+        const Increase=0.1;
         let totalOpacity;
         if(opacityReturn === undefined){
             totalOpacity= opacityStart + Increase;
-            objectToFade.style.opacity=totalOpacity
+
+                objectToFade.style.opacity = totalOpacity.toString();
+
+            this.setFadeIn(objectToFade, totalOpacity);
+
+
+                console.log('obj to fade', objectToFade)
 
         }else{
             totalOpacity= opacityReturn + Increase;
-            objectToFade.style.opacity=totalOpacity
+            objectToFade.style.opacity=totalOpacity.toString()
+            this.setFadeIn(objectToFade, totalOpacity, stockInterval)
         }
 
-    }*/
+    }
 
 
     getRandomImage(maximumRandom, minimumRandom=0){
