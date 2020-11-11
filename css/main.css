@@ -345,6 +345,8 @@ footer h6{
         flex-wrap:  wrap;
         justify-content: center;
 
+       -webkit-flex-wrap: wrap;
+        -webkit-justify-content: center;
 
         width: 70%;
         z-index: 1;
@@ -583,6 +585,8 @@ footer h6{
         flex-wrap: wrap;
         justify-content: center;
 
+        -webkit-flex-wrap: wrap;
+        -webkit-justify-content: center;
 
     }
 
