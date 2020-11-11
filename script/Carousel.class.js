@@ -128,12 +128,11 @@ export class CarouselClass {
         // make a loop trough the number of the array object key to create <li>
         this.setTimeOutCarousel(mainCarousel,  newArray, numberImg, folderImg);
 
-
     }
 
     setTimeOutCarousel(mainCarousel,newArray, numberImg, folderImg){
         let timeOut=   setTimeout(()=>this.generateNewCarousel(mainCarousel,newArray, numberImg, folderImg), 5000)
-      //  this.mouseHoverStop(timeOut)
+      this.mouseHoverStop(timeOut, mainCarousel, newArray, numberImg, folderImg)
     }
 
 
@@ -204,7 +203,6 @@ export class CarouselClass {
 
         this.setTimeOutCarousel(mainCarousel, currentCarousel, numberImg, folderImg)
 
-
     }
 
     setFadeIn(objectToFade, opacityReturn, stockInterval){
@@ -221,7 +219,6 @@ export class CarouselClass {
 
     fadeIn(objectToFade, opacityReturn, stockInterval) {
         let opacityStart=0;
-        let i;
         const Increase=0.1;
         let totalOpacity;
         if(opacityReturn === undefined){
@@ -236,7 +233,7 @@ export class CarouselClass {
 
         }else{
             totalOpacity= opacityReturn + Increase;
-            objectToFade.style.opacity=totalOpacity.toString()
+            objectToFade.style.opacity=totalOpacity.toString();
             this.setFadeIn(objectToFade, totalOpacity, stockInterval)
         }
 
@@ -251,13 +248,31 @@ export class CarouselClass {
         return Math.floor(Math.random()*(maximumRandom-minimumRandom)+ minimumRandom)
     }
 
-    mouseHoverStop(timeOutCarousel){
-
+    mouseHoverStop(timeOutCarousel, mainCarousel, newArray, numberImg, folderImg){
+        let mouseLeave=false;
         const getDivCarousel= document.getElementById('carousel');
-        getDivCarousel.addEventListener('mouseover', function () {
+
+        getDivCarousel.addEventListener('mouseenter', function () {
+            console.log('timeOUt', timeOutCarousel);
             clearTimeout(timeOutCarousel);
             console.log('mouse Hover');
         });
+
+        this.mouseHoverStart(getDivCarousel,mouseLeave, mainCarousel, newArray, numberImg, folderImg)
+
+    }
+
+    mouseHoverStart(getDivCarousel, mouseLeave, mainCarousel, newArray, numberImg, folderImg){
+
+        getDivCarousel.addEventListener('mouseleave', function () {
+            mouseLeave= true;
+            if(mouseLeave===true){
+                console.log('helooooooooooooooooooooooooooooo')
+                
+            }
+            console.log('leaveeeeeeee')
+        })
+
 
     }
 
