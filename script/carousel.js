@@ -3,7 +3,7 @@ import {FolderImg} from "./FolderImg.js";
 import {CarouselClass} from "./Carousel.class.js";
 
 
-
+window.addEventListener('DOMContentLoaded', function () {
     let stringifyId;
     let mainCarouselArray=[];
     let currentCarousel=[];
@@ -25,3 +25,4 @@ import {CarouselClass} from "./Carousel.class.js";
 
     }
 
+});
