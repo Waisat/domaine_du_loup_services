@@ -581,7 +581,12 @@ footer h6{
     }
 
     #our_services_section{
-        display: inline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        -webkit-flex-wrap: wrap;
+        -webkit-justify-content: center;
 
     }
 
