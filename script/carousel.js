@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
     if(window.matchMedia("(max-width:699px)").matches){
-        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 3)
+        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 1)
 
     }
 

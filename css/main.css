@@ -938,6 +938,8 @@ footer h6{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        -webkit-flex-wrap:wrap ;
+       -webkit-justify-content:center ;
         width: 100%;
         z-index: 1;
 
@@ -956,6 +958,7 @@ footer h6{
     .mainNav li{
 
         list-style: none;
+
         padding: 0 5%;
         font-family: 'Courier Prime', monospace;
 
@@ -972,6 +975,7 @@ footer h6{
 
     .mainNav li :hover{
         color: #F4B894;
+        -webkit-text-decoration-color:#F4B894 ;
     }
 
 
@@ -979,10 +983,12 @@ footer h6{
         padding: 1% 2%;
         width: auto;
         height: auto;
+        -webkit-print-color-adjust: exact;
         background-color: #0E487B;
         position: absolute;
         z-index: 0;
         display: none;
+
     }
 
     .services_nav li{
@@ -994,6 +1000,7 @@ footer h6{
         width: 100%;
         text-decoration: none;
         color: white;
+        -webkit-text-decoration-color:black ;
     }
 
     #health_hover, #wellness_hover, #habitation_hover, #association_hover, #mode_hover{
@@ -1042,6 +1049,7 @@ footer h6{
         padding: 3% 0;
         margin: 0 auto;
         width: 80%;
+
     }
 
     section h4{
@@ -1060,9 +1068,9 @@ footer h6{
 
     article p{
 
-
+        margin: 0 auto;
         font-family: 'Roboto Slab', serif;
-        width: 100%;
+        width: 80%;
         color: #7C858A;
 
     }

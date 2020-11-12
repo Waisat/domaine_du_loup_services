@@ -52,13 +52,17 @@ export class CarouselClass {
                     break;
                 case numberImg=3:
                     createUl.style.width='30%';
-                    createImg.style.height='50px';
+                    createImg.style.height='5vh';
+                    createImg.style.borderRadius='10px'
+
                     break;
                 case  numberImg=2:
                     createUl.style.width='40%';
                     break;
                 case numberImg=1:
                     createUl.style.width='80%';
+                    createImg.style.height='20vh';
+                    createImg.style.borderRadius='10px'
 
                     break;
             }
