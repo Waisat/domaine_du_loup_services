@@ -581,9 +581,7 @@ footer h6{
     }
 
     #our_services_section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: inline;
 
         -webkit-flex-wrap: wrap;
         -webkit-justify-content: center;
