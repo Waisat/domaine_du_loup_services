@@ -583,9 +583,6 @@ footer h6{
     #our_services_section{
         display: inline;
 
-        -webkit-flex-wrap: wrap;
-        -webkit-justify-content: center;
-
     }
 
 
