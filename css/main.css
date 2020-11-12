@@ -980,9 +980,9 @@ footer h6{
 
     .services_nav{
         padding: 1% 2%;
+
         width: auto;
         height: auto;
-
         background-color: #0E487B;
         position: absolute;
         z-index: 0;
@@ -1116,8 +1116,7 @@ footer h6{
     }
 
     #our_services_section{
-        display: flex;
-        flex-direction: column;
+
         width: 80%;
         overflow: hidden;
     }

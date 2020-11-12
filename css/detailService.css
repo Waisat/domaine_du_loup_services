@@ -15,6 +15,7 @@
     .detail_section article .logo {
         display: flex;
         flex-direction: row;
+        justify-content: center;
 
     }
 
@@ -98,7 +99,7 @@
     .detail_section article .logo {
         display: flex;
         flex-direction: row;
-
+        justify-content: center;
     }
 
     .detail_section article .logo li {
@@ -190,7 +191,7 @@
     .detail_section article .logo {
         display: flex;
         flex-direction: row;
-
+        justify-content: center;
     }
 
     .detail_section article .logo li {
@@ -284,7 +285,7 @@
     .detail_section article .logo {
         display: flex;
         flex-direction: row;
-
+        justify-content: center;
 
     }
 
