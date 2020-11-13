@@ -138,7 +138,7 @@ export class CarouselClass {
 
     setTimeOutCarousel(mainCarousel,newArray, numberImg, folderImg){
         let timeOut=   setTimeout(()=>this.generateNewCarousel(mainCarousel,newArray, numberImg, folderImg), 5000)
-      this.mouseHoverStop(timeOut, mainCarousel, newArray, numberImg, folderImg)
+    //  this.mouseHoverStop(timeOut, mainCarousel, newArray, numberImg, folderImg)
     }
 
 
