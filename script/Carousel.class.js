@@ -1,3 +1,5 @@
+
+
 export class CarouselClass {
     constructor(mainCarousel, currentCarousel, folderImg,  numberCarouselImg) {
         this.folderImg=folderImg;
@@ -136,7 +138,7 @@ export class CarouselClass {
 
     setTimeOutCarousel(mainCarousel,newArray, numberImg, folderImg){
         let timeOut=   setTimeout(()=>this.generateNewCarousel(mainCarousel,newArray, numberImg, folderImg), 5000)
-      //this.mouseHoverStop(timeOut, mainCarousel, newArray, numberImg, folderImg)
+      this.mouseHoverStop(timeOut, mainCarousel, newArray, numberImg, folderImg)
     }
 
 
@@ -262,23 +264,19 @@ export class CarouselClass {
             console.log('mouse Hover');
         });
 
-        this.mouseHoverStart(getDivCarousel,mouseLeave, mainCarousel, newArray, numberImg, folderImg)
+        this.mouseHoverStart(getDivCarousel, mouseLeave, mainCarousel, newArray, numberImg, folderImg)
+
 
     }
 
     mouseHoverStart(getDivCarousel, mouseLeave, mainCarousel, newArray, numberImg, folderImg){
 
-        getDivCarousel.addEventListener('mouseleave', function () {
-            mouseLeave= true;
-            if(mouseLeave===true){
-                console.log('helooooooooooooooooooooooooooooo')
-                
-            }
-            console.log('leaveeeeeeee')
-        })
+        getDivCarousel.addEventListener('mouseleave', ()=>this.generateNewCarousel(mainCarousel, newArray, numberImg, folderImg))
+
 
 
     }
+
 
 
 

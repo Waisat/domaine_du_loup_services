@@ -94,7 +94,7 @@ export const FolderImg=[{
     {
         id:'',
         name:'Kinésithérapeute',
-        link:'./health/kine.html',
+        link:'./health/Kinesitherapeute.html',
         img:'kinesitherapeute.jpg'
 
     },
