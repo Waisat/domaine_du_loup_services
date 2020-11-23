@@ -126,8 +126,17 @@ h2{
         justify-content: space-between;
     }
 
-    #introduction_section article img{
+    #introduction_section p{
+        width: 40%;
+    }
+
+    #img_acceuil{
+        width: 30%;
+    }
+    #introduction_section article #img_acceuil img{
+        width: 100%;
         border-radius: 10px;
+
     }
 
     #toService{
