@@ -120,6 +120,19 @@ h2{
     }
 
 
+    #introduction_section article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #introduction_section article img{
+        border-radius: 10px;
+    }
+
+    #toService{
+        margin-top: 2%;
+    }
 header{
     height: 100%;
     background-color: #0F4C81;
@@ -434,6 +447,20 @@ footer h6{
 
     #mode_hover:hover  #mode_nav{
         display: block;
+    }
+    #introduction_section article{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    #introduction_section article img{
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    #toService{
+        margin-top: 2%;
     }
 
     header{
@@ -750,6 +777,23 @@ footer h6{
     #mode_hover:hover  #mode_nav{
         display: block;
     }
+
+    #introduction_section article{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    #introduction_section article img{
+        margin: 0 auto;
+        border-radius: 10px;
+
+        width: 80%;
+    }
+
+    #toService{
+        margin-top: 2%;
+    }
     header{
         height: 100%;
         background-color: #0F4C81;
@@ -1029,6 +1073,22 @@ footer h6{
 
     #mode_hover:hover  #mode_nav{
         display: block;
+    }
+
+    #introduction_section article{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    #introduction_section article img{
+       margin-bottom: 10%;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    #toService{
+        margin-top: 2%;
     }
     header{
         width: 100%;
