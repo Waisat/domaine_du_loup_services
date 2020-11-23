@@ -32,8 +32,8 @@ export class CarouselClass {
         //createBoard.style.backgroundColor='blue';
         createBoard.style.display='flex';
         createBoard.style.flexDirection='row';
-        createBoard.style.justifyContent='space-between'
-        createBoard.style.margin='0 auto'
+        createBoard.style.justifyContent='space-between';
+        createBoard.style.margin='0 auto';
 
         console.log('grabCarousel', grabIdCarousel);
 

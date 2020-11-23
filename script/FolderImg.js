@@ -127,7 +127,7 @@ export const FolderImg=[{
 
     {
         id:'',
-        name:'Cercle MediterraPaix',
+        name:'Cercle Mediterrapaix',
         link:'./association/cercleMediterraPaix.html',
         img:'cercle.jpg'
 
