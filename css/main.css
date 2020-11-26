@@ -224,11 +224,12 @@ article p{
 
 .services_card{
 
-    width: 18%;
+    width: 90%;
 
 }
 
 .modify-services{
+
    padding:0 5%;
 
 }
@@ -247,7 +248,7 @@ article p{
 
 .services_article{
 
-
+    width: 90%;
     background-color: white;
     border-radius: 20px;
 
@@ -272,6 +273,16 @@ article p{
     font-size: 100%;
 }
 
+    #rentID p{
+        width: 100%;
+        text-align: left;
+    }
+
+    #rentID img{
+        padding-bottom: 10%;
+
+    }
+
 
 .button_action{
     width: 15%;
@@ -281,6 +292,21 @@ article p{
     margin-left: 90%;
 
 }
+
+    .button_action_card{
+        margin-top: 10%;
+       padding: 0.5% 0.5%;
+
+        border: 2px solid #F4B894;
+        background-color: #F4B894;
+
+
+    }
+
+    .button_action_card p{
+        text-align: center;
+        margin: 0 auto;
+    }
 
 .button_action:hover{
     cursor: pointer;

@@ -133,28 +133,16 @@ export const FolderImg=[{
 
     },
 
-    {
-        id:'',
-        name:'Conseil',
-        link:'./mode_couture/conseil.html',
-        img:'conseil.jpg'
 
-    },
 
     {
         id:'',
-        name:'Couture sur mesure',
-        link:'./mode_couture/coutureSurMesure.html',
+        name:'Mode & couture',
+        link:'./mode_couture/mode_couture.html',
         img:'coutureSurmesure.jpg'
 
     },
 
-    {
-        id:'',
-        name:'Formation',
-        link:'./mode_couture/formation.html',
-        img:'formation.jpg'
 
-    },
 ];
 
