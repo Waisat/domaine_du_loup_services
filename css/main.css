@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1081px) {
+@media only screen and (min-width: 1400px) {
 body{
     box-sizing: border-box;
     margin: 0 auto;
@@ -31,6 +31,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0;
 
     z-index: 1;
 
@@ -44,11 +45,15 @@ h1{
 h2{
 
 
-
+    font-size: 120%;
     text-align: center;
     color: #658DC6;
 
 }
+    #burger_svg{
+        display: none;
+    }
+
 
 .mainNav li{
     width: 25%;
@@ -121,13 +126,18 @@ h2{
 
 
     #introduction_section article{
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     #introduction_section p{
-        width: 40%;
+        width: 60%;
+    }
+
+    #introduction_section .button_action p {
+        width: 100%;
     }
 
     #img_acceuil{
@@ -158,16 +168,16 @@ h3{
 section{
     padding: 2% 0;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 section h4{
     margin-top: 2%;
-    font-size: 200%;
+    font-size: 180%;
     border-bottom: 25px #0E487B solid;
     border-radius: 30px;
-    width: 80%;
-    padding-bottom: 4%;
+    width: 100%;
+    padding-bottom: 1%;
     color: #658DC6;
     font-family: 'Noto Serif', serif;
 }
@@ -178,7 +188,7 @@ section h4{
         font-size: 200%;
         border-bottom: 25px #0E487B solid;
         border-radius: 30px;
-        width: 70%;
+        width: 80%;
         padding-bottom: 4%;
         color: #658DC6;
         font-family: 'Noto Serif', serif;
@@ -186,8 +196,10 @@ section h4{
 article p{
     text-align: justify;
     font-family: 'Roboto Slab', serif;
-    width: 60%;
+    width: 100%;
     color: #7C858A;
+    line-height: 35px;
+    font-size: 120%;
 
 
 }
@@ -238,6 +250,7 @@ article p{
     list-style: none;
     text-decoration: none;
     color: #658DC6;
+
 }
 
     .modify-services, li a:hover{
@@ -289,7 +302,7 @@ article p{
     height: auto;
     border: 2px solid #F4B894;
     background-color: #F4B894;
-    margin-left: 90%;
+    margin-left: 85%;
 
 }
 
@@ -312,8 +325,13 @@ article p{
     cursor: pointer;
 }
 
+    .width-button-article{
+        margin: 0 auto;
+        width: 100%;
+    }
+
 .button_action p{
-    padding: 1% 1%;
+    padding: 3% 1%;
     text-align: center;
     margin: 0 auto;
     color: white;
@@ -353,7 +371,384 @@ footer h6{
 }
 }
 
+@media only screen and (max-width: 1399px) {
+    body{
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
 
+    main{
+        width: 100%;
+    }
+
+
+    nav{
+        margin: 0 auto;
+        width: 80%;
+        background-color:white;
+
+
+    }
+
+
+    h1{
+        text-align: center;
+        padding: 2% 0;
+        font-size: 200%;
+        color: #F4B894;
+
+
+        font-family: 'Merriweather', serif;
+    }
+
+    #burger_svg{
+        display: none;
+    }
+
+
+    .mainNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+
+        z-index: 1;
+
+    }
+
+
+
+
+
+
+    h2{
+
+
+        font-size: 120%;
+        text-align: center;
+        color: #658DC6;
+
+    }
+
+    .mainNav li{
+        width: 25%;
+        list-style: none;
+        padding: 0 1%;
+        font-family: 'Courier Prime', monospace;
+
+
+    }
+
+
+    .mainNav li a{
+        text-decoration: none;
+    }
+
+
+    .mainNav li :hover{
+        color: #F4B894;
+    }
+    .services_nav{
+        padding: 1% 2%;
+
+        height: auto;
+        background-color: #0E487B;
+        position: absolute;
+        z-index: 0;
+        display: none;
+    }
+
+    .services_nav li{
+        width: 100%;
+        padding: 2% 0;
+    }
+
+    .services_nav li a{
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    #health_hover, #wellness_hover, #habitation_hover, #association_hover, #mode_hover{
+        cursor: pointer;
+
+
+    }
+
+
+
+    #health_hover:hover  #health_nav{
+        display: block;
+    }
+
+
+    #wellness_hover:hover #wellness_nav{
+        display: block;
+    }
+
+    #habitation_hover:hover  #habitat_nav{
+        display: block;
+    }
+
+    #association_hover:hover  #association_nav{
+        display: block;
+    }
+
+    #mode_hover:hover  #mode_nav{
+        display: block;
+    }
+
+
+    #introduction_section article{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #introduction_section p{
+        width: 60%;
+    }
+
+    #introduction_section .button_action p {
+        width: 100%;
+    }
+
+    #img_acceuil{
+        width: 30%;
+    }
+    #introduction_section article #img_acceuil img{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    #toService{
+        margin-top: 2%;
+    }
+    header{
+        height: 100%;
+        background-color: #0F4C81;
+        z-index: -1;
+    }
+
+    h3{
+        margin: 0 42%;
+        padding-top: 2%;
+        font-size: 400%;
+        color: #F4B894;
+    }
+
+    section{
+        padding: 2% 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section h4{
+        margin-top: 2%;
+        font-size: 180%;
+        border-bottom: 25px #0E487B solid;
+        border-radius: 30px;
+        width: 100%;
+        padding-bottom: 1%;
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+    }
+
+
+    #bgc_services  h4{
+        margin: 0 auto;
+        font-size: 200%;
+        border-bottom: 25px #0E487B solid;
+        border-radius: 30px;
+        width: 80%;
+        padding-bottom: 1%;
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+    }
+    article p{
+        text-align: justify;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+        color: #7C858A;
+        line-height: 30px;
+        font-size: 100%;
+
+
+    }
+
+
+    #bgc_services{
+        padding: 5% 0;
+        width: 100%;
+        background-color: rgba(101, 141, 198, 0.1);
+    }
+
+
+    #toLocation{
+        width: 10%;
+        margin-left: 80%;
+    }
+    #our_services_section{
+
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+
+    #our_services_section ul li{
+
+        font-family: 'Noto Serif', serif;
+
+    }
+
+
+    .services_card{
+        margin-top: 2%;
+        width: 30%;
+
+    }
+
+    .modify-services{
+
+        padding:0 5%;
+
+    }
+
+    .modify-services, li a{
+        list-style: none;
+        text-decoration: none;
+        color: #658DC6;
+        font-size: 100%;
+    }
+
+    .modify-services, li a:hover{
+
+
+        color: #F4B894;
+    }
+
+    .services_article{
+
+        width: 80%;
+        background-color: white;
+        border-radius: 20px;
+
+
+        padding: 3% 3%;
+    }
+
+    .services_article ul{
+        height: 8rem;
+    }
+
+    .services_article img{
+        text-align: center;
+        width:100%;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .services_article h5{
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+        font-size: 100%;
+    }
+
+    #rentID p{
+        width: 100%;
+        text-align: left;
+    }
+
+    #rentID img{
+        padding-bottom: 10%;
+
+    }
+
+
+    .button_action{
+        width: 15%;
+        height: auto;
+        border: 2px solid #F4B894;
+        background-color: #F4B894;
+        margin-left: 85%;
+
+    }
+
+    .button_action_card{
+        margin-top: 10%;
+        padding: 0.5% 0.5%;
+
+        border: 2px solid #F4B894;
+        background-color: #F4B894;
+
+
+    }
+
+    .button_action_card p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .button_action:hover{
+        cursor: pointer;
+    }
+
+    .width-button-article{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .button_action p{
+        padding: 3% 1%;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+
+    }
+
+
+
+
+
+    .modify li{
+        list-style: none;
+    }
+
+    .modify li a{
+        text-decoration: none;
+        color: #658DC6;
+    }
+
+    .modify-services li{
+        color: #658DC6;
+    }
+
+
+
+
+    footer{
+        position: relative;
+        height: 4rem;
+        background-color: #0F4C81;
+    }
+
+    footer h6{
+        font-size: 100%;
+        color: #F4B894;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1% 0;
+        width: 50%;
+
+    }
+}
 
 
 @media only screen and (max-width: 1080px) {
@@ -386,7 +781,9 @@ footer h6{
     }
 
 
-
+    #burger_svg{
+       display: none;
+    }
 
     .mainNav {
         display: flex;
@@ -397,7 +794,7 @@ footer h6{
        -webkit-flex-wrap: wrap;
         -webkit-justify-content: center;
 
-        width: 70%;
+        width: 80%;
         z-index: 1;
 
     }
@@ -406,16 +803,18 @@ footer h6{
 
 
     h2{
-
-        text-align: left;
+        font-size: 100%;
+        text-align: center;
         color: #658DC6;
 
     }
 
 
     .mainNav li{
+
+
         list-style: none;
-        padding: 0 2%;
+        padding: 0 ;
         font-family: 'Courier Prime', monospace;
 
 
@@ -486,13 +885,19 @@ footer h6{
     }
     #introduction_section article{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
 
     }
 
-    #introduction_section article img{
-        border-radius: 10px;
+
+    #introduction_section{
         width: 80%;
+    }
+    #introduction_section article img{
+
+        border-radius: 10px;
+        width: 90%;
+        padding:6% 0 0 0;
     }
 
     #toService{
@@ -520,11 +925,23 @@ footer h6{
     section{
         padding: 3% 0;
         margin: 0 auto;
-        width: 60%;
+        width: 80%;
     }
 
     section h4{
-        font-size: 150%;
+        font-size: 130%;
+        border-bottom: 25px #0E487B solid;
+        border-radius: 30px;
+        width: 100%;
+        padding-bottom: 1%;
+        color: #658DC6;
+        font-family: 'Noto Serif', serif;
+    }
+
+
+    #bgc_services  h4{
+        margin: 0 auto;
+        font-size: 130%;
         border-bottom: 25px #0E487B solid;
         border-radius: 30px;
         width: 80%;
@@ -533,19 +950,8 @@ footer h6{
         font-family: 'Noto Serif', serif;
     }
 
-
-    #bgc_services  h4{
-        margin: 0 auto;
-        font-size: 200%;
-        border-bottom: 25px #0E487B solid;
-        border-radius: 30px;
-        width: 70%;
-        padding-bottom: 4%;
-        color: #658DC6;
-        font-family: 'Noto Serif', serif;
-    }
-
     article p{
+        line-height: 25px;
         text-align: justify;
         font-family: 'Roboto Slab', serif;
         width: 80%;
@@ -617,10 +1023,10 @@ footer h6{
 
     .button_action{
         width: auto;
-        height: auto;
+
         border: 2px solid #F4B894;
         background-color: #F4B894;
-        margin-left:75% ;
+
     }
 
     .button_action:hover{
@@ -671,7 +1077,7 @@ footer h6{
     footer h6{
         font-size: 100%;
         color: #F4B894;
-        margin: 0 0 0 38%;
+        margin: 0 auto;
         padding: 2% 0;
         width: 50%;
 
@@ -681,300 +1087,6 @@ footer h6{
 }
 
 
-@media only screen and (max-width: 767px) {
-
-
-    body{
-        box-sizing: border-box;
-        margin: 0 auto;
-    }
-
-    main{
-        width: 100%;
-    }
-    nav{
-        margin: 0 auto;
-        width: 100%;
-        background-color:white;
-
-
-    }
-
-    h1{
-        margin: 0 auto;
-        text-align: center;
-        padding:2%;
-        font-size: 120%;
-        color: #F4B894;
-        width: 40%;
-        font-family: 'Merriweather', serif;
-    }
-
-
-
-    .mainNav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-
-        width: 70%;
-        z-index: 1;
-
-    }
-
-
-
-
-    h2{
-        font-size: 100%;
-        text-align: left;
-        color: #658DC6;
-
-    }
-
-
-    .mainNav li{
-        list-style: none;
-        padding: 0 2%;
-        font-family: 'Courier Prime', monospace;
-
-
-    }
-
-    .mainNav li:nth-child(4){
-
-
-
-
-
-
-    }
-
-    ul.mainNav{
-        margin: 0 auto;
-        padding: 0;
-
-    }
-
-    .mainNav li a{
-        text-decoration: none;
-    }
-
-
-    .mainNav li :hover{
-        color: #F4B894;
-    }
-    .services_nav{
-        padding: 1% 2%;
-        width: auto;
-        height: auto;
-        background-color: #0E487B;
-        position: absolute;
-        z-index: 0;
-        display: none;
-    }
-
-    .services_nav li{
-        padding: 2% 0;
-    }
-
-    .services_nav li a{
-        width: 100%;
-        text-decoration: none;
-        color: white;
-    }
-
-    #health_hover, #wellness_hover, #habitation_hover, #association_hover, #mode_hover{
-        cursor: pointer;
-
-
-    }
-
-
-
-    #health_hover:hover  #health_nav{
-        display: block;
-    }
-
-
-    #wellness_hover:hover #wellness_nav{
-        display: block;
-    }
-
-    #habitation_hover:hover  #habitat_nav{
-        display: block;
-    }
-
-    #association_hover:hover  #association_nav{
-        display: block;
-    }
-
-    #mode_hover:hover  #mode_nav{
-        display: block;
-    }
-
-    #introduction_section article{
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
-
-    #introduction_section article img{
-        margin: 0 auto;
-        border-radius: 10px;
-
-        width: 80%;
-    }
-
-    #toService{
-        margin-top: 2%;
-    }
-    header{
-        height: 100%;
-        background-color: #0F4C81;
-        z-index: -1;
-    }
-
-    h3{
-        margin: 0 38%;
-        padding-top: 2%;
-        font-size: 400%;
-        color: #F4B894;
-    }
-
-    section{
-        padding: 3% 0;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    section h4{
-        font-size: 100%;
-        border-bottom: 25px #0E487B solid;
-        border-radius: 30px;
-        width: 80%;
-        padding-bottom: 4%;
-        color: #658DC6;
-        font-family: 'Noto Serif', serif;
-    }
-
-    article p{
-        text-align: justify;
-        font-family: 'Roboto Slab', serif;
-        width: 80%;
-        color: #7C858A;
-
-    }
-
-    #bgc_services{
-        width: 100%;
-        background-color: rgba(101, 141, 198, 0.1);
-    }
-
-    .services_card{
-        margin-top: 4%;
-
-        width: 40%;
-        height: 25%;
-    }
-
-
-    .services_article{
-
-
-        background-color: white;
-        border-radius: 20px;
-
-
-        padding: 5% 5%;
-    }
-
-    .services_article ul{
-        height: 8rem;
-    }
-
-    .services_article img{
-        text-align: center;
-        width:100%;
-        border-radius: 20px;
-        margin: 0 auto;
-    }
-
-    .services_article h5{
-        color: #658DC6;
-        font-family: 'Noto Serif', serif;
-        font-size: 115%;
-
-    }
-
-    #our_services_section .button_action{
-
-        margin-top:3% ;
-
-    }
-
-    .button_action{
-        width: auto;
-        height: auto;
-        border: 2px solid #F4B894;
-        background-color: #F4B894;
-        margin-left:60% ;
-    }
-
-    .button_action:hover{
-        cursor: pointer;
-    }
-
-    .button_action p{
-        padding: 1%;
-        width: 100%;
-        color: white;
-
-    }
-
-    .modify li{
-        list-style: none;
-    }
-
-    .modify li a{
-        text-decoration: none;
-        color: #658DC6;
-    }
-
-    #our_services_section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-
-
-
-    #our_services_section ul li{
-
-        font-family: 'Noto Serif', serif;
-
-    }
-
-
-    footer{
-        position: relative;
-        height: 4rem;
-        background-color: #0F4C81;
-    }
-
-    footer h6{
-        font-size: 100%;
-        color: #F4B894;
-        margin: 0 0 0 36%;
-        padding: 3% 0;
-        width: 50%;
-
-    }
-
-
-}
 
 
 @media only screen and (max-width: 430px) {
@@ -988,6 +1100,19 @@ footer h6{
     main{
         width: 100%;
     }
+
+    #mobile_flex{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #burger_svg{
+        display: block;
+        width: 20%;
+
+    }
+
+
     nav{
         margin: 0 auto;
         width: 80%;
@@ -1008,19 +1133,20 @@ footer h6{
 
     ul.mainNav{
 
-        margin: 0  0;
+        margin: 0  auto;
         padding: 0;
 
     }
 
 
     .mainNav {
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         -webkit-flex-wrap:wrap ;
-       -webkit-justify-content:center ;
-        width: 100%;
+
+        width: 80%;
         z-index: 1;
 
     }
@@ -1036,6 +1162,8 @@ footer h6{
 
 
     .mainNav li{
+
+        width: auto;
 
         list-style: none;
 
@@ -1148,7 +1276,7 @@ footer h6{
     }
 
     section h4{
-        font-size: 100%;
+        font-size: 90%;
         border-bottom: 25px #0E487B solid;
         border-radius: 30px;
         width: 100%;
@@ -1158,7 +1286,7 @@ footer h6{
     }
 
     #bgc_services h4{
-       font-size: 100%;
+       font-size: 90%;
     }
 
     article p{
@@ -1168,6 +1296,14 @@ footer h6{
         width: 80%;
         color: #7C858A;
 
+    }
+
+    #img_acceuil{
+        margin: 0 auto;
+        width: 90%;
+    }
+    #introduction_section p{
+        width: 90%;
     }
 
     #bgc_services{
@@ -1185,7 +1321,7 @@ footer h6{
 
     .services_article{
 
-
+        width: 90%;
         background-color: white;
         border-radius: 20px;
 
@@ -1222,13 +1358,23 @@ footer h6{
         margin-top:3% ;
 
     }
+    .width-button-article{
+        padding: 5%;
+    width: 90%;
+    }
 
     .button_action{
+        margin-top: 10%;
         width: auto;
         height: auto;
         border: 2px solid #F4B894;
         background-color: #F4B894;
         margin-left:50% ;
+    }
+
+    #toLocation{
+        width: 40%;
+        margin: 0 50%;
     }
 
     .button_action:hover{
@@ -1279,7 +1425,7 @@ footer h6{
     footer h6{
         font-size: 100%;
         color: #F4B894;
-        margin: 0 0 0 30%;
+        margin: 0 auto;
         padding: 5% 0;
         width: 50%;
 

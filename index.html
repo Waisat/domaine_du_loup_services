@@ -10,6 +10,7 @@
  <!--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> !-->
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="script/mobile_menu.js"></script>
     <script src="script/scrollDown.js"></script>
     <script type="module" src="script/carousel.js"></script>
     <title>Domaine du Loup Espace Commercial Cagnes-sur-Mer</title>
@@ -18,9 +19,13 @@
 
 <main>
 
+<div id="mobile_flex">
+
+    <img id="burger_svg" src="./ressources/homeImg/burger_Menu.svg" alt="menu_burger" title="burger_menu">
 
 
     <nav>
+
         <ul class="mainNav">
 
 
@@ -36,7 +41,7 @@
 
                 </ul></li>
 
-        <li id="wellness_hover"> <h2 >Bien-être</h2>
+        <li id="wellness_hover"> <h2 >Bien être</h2>
                 <ul class="services_nav" id="wellness_nav">
                     <li><a href="./wellness/estheticienne.html">Esthéticienne</a></li>
                     <li><a href="wellness/danse.html">Ecole de Danse</a></li>
@@ -78,7 +83,7 @@
         </ul>
 
     </nav>
-
+</div>
     <header>
 
         <div id="carousel">
@@ -106,11 +111,12 @@
 
 
         </article>
+        <div class="width-button-article">
         <div class="button_action" id="toService">
             <p>Nos Activités</p>
 
         </div>
-
+        </div>
     </section>
 
 <div id="bgc_services">
@@ -206,12 +212,13 @@
 
 
            </section>
+    <article class="width-button-article">
 
     <div class="button_action" id="toLocation">
-        <p>Nous trouver ?</p>
+        <p>Nous trouver </p>
 
     </div>
-
+    </article>
 </div>
 
     <section id="location">
