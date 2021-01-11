@@ -110,12 +110,12 @@ export class CarouselClass {
                     createElementH3.style.color='#F4B894';
                     createElementH3.style.margin='0 auto';
                     createElementH3.style.textAlign='center';
-                    createElementH3.style.paddingBottom='5% ';
+                    createElementH3.style.paddingBottom='5%';
                     createElementH3.style.width='100%'
                     createElementH3.innerHTML=newArray[i].name;
 
                     if(numberImg === 2){
-                        createElementH3.style.fontSize='70%'
+                        createElementH3.style.fontSize='60%'
                     }
 
                 }
