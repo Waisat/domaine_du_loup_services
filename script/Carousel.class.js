@@ -114,6 +114,10 @@ export class CarouselClass {
                     createElementH3.style.width='100%'
                     createElementH3.innerHTML=newArray[i].name;
 
+                    if(numberImg === 2){
+                        createElementH3.style.fontSize='70%'
+                    }
+
                 }
 
                 if(createLi.className==='liInfo2'){
