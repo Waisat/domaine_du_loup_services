@@ -115,7 +115,7 @@ export class CarouselClass {
                     createElementH3.innerHTML=newArray[i].name;
 
                     if(numberImg === 2){
-                        createElementH3.style.fontSize='60%'
+                        createElementH3.style.fontSize='50%'
                     }
 
                 }
