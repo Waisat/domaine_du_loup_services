@@ -20,6 +20,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
     }
 
+    if(navigator.userAgent.toLowerCase().match(/iphone/)){
+        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
+    }
+
     if(window.matchMedia("(max-width:699px)").matches){
         new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
 
