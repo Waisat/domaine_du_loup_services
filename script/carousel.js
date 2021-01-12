@@ -12,19 +12,20 @@ window.addEventListener('DOMContentLoaded', function () {
         stringifyId=(b).toString();
         FolderImg[b].id=stringifyId;
     }
+    if(navigator.userAgent.toLowerCase().match(/iphone/)){
+        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
+    }
 
 
-    if (window.matchMedia("(min-width:700px)").matches) {
+  else if (window.matchMedia("(min-width:700px)").matches) {
 
         new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 4)
 
     }
 
-    if(navigator.userAgent.toLowerCase().match(/iphone/)){
-        new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
-    }
 
-    if(window.matchMedia("(max-width:699px)").matches){
+
+  else if(window.matchMedia("(max-width:699px)").matches){
         new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
 
     }
