@@ -44,8 +44,21 @@ export class CarouselClass {
             createImg.id='img/'+i;
             createUl.id= 'ul/'+ i;
 
+            if(numberImg === 4 ){
+                createUl.style.padding = '0'
+                createUl.style.width='20%';
+                createImg.style.height='150px';
+                createImg.style.borderRadius='10px';
 
-            switch (numberImg) {
+
+            } else if( numberImg ===2){
+                createUl.style.width='40%';
+                createImg.style.height='10vh';
+                createImg.style.borderRadius='10px';
+
+            }
+
+      /*      switch (numberImg) {
                 case numberImg=4:
                     createUl.style.padding = '0'
                     createUl.style.width='20%';
@@ -71,7 +84,7 @@ export class CarouselClass {
                     createImg.style.borderRadius='10px';
 
                     break;
-            }
+            } */
 
 
             let randomNum= this.getRandomImage(folderImg.length-1);

@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function () {
         stringifyId=(b).toString();
         FolderImg[b].id=stringifyId;
     }
-    if(navigator.userAgent.toLowerCase().match(/iphone/)){
+    if(navigator.userAgent.toLowerCase().match(/iphone/i)){
         new CarouselClass(mainCarouselArray, currentCarousel, FolderImg, 2)
     }
 
