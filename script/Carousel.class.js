@@ -191,7 +191,7 @@ export class CarouselClass {
             let checkCurrentDouble= currentCarousel.filter(el=>(el.id=== randomCarousel.toString()));
             if(checkCarousel.length || checkCurrentDouble.length!==0){
                 do{
-                    randNewArray= Math.floor(Math.random()* (folderImg.length-1));
+                    randNewArray= Math.floor(Math.random()* (folderImg.length)); //(retrait du -1 sur length)
                     checkCarouselAgain= mainCarousel.filter(el=>(el.id === randNewArray.toString()));
                     checkCurrentNewAgain=currentCarousel.filter(el=>(el.id === randNewArray.toString()));
                     console.log('Do it again')

@@ -73,11 +73,47 @@
         padding-top: 2%;
     }
 
+    #card_location{
+
+    }
+
     .detail_contact li a{
         text-decoration: none;
         color: #658DC6;
     }
+    h5{
+        color: #658DC6;
+        font-size: 1.6rem;
+        margin-top:0 ;
+    }
+    #main_location{
 
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+    .location_card{
+        width: 95%;
+        padding: 2%;
+       border: 3px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    }
+
+   .location_card img{
+    width: 50%;
+    }
+
+
+
+    #iframe_rent{
+        text-align: center;
+    }
+
+    .list-couture{
+        color: #7C858A;
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -174,6 +210,41 @@
         text-decoration: none;
         color: #658DC6;
     }
+
+    h5{
+        color: #658DC6;
+        font-size: 1.6rem;
+        margin-top:0 ;
+    }
+    #main_location{
+
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+    .location_card{
+        width: 95%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    }
+
+    .location_card img{
+        width: 50%;
+    }
+
+
+
+    #iframe_rent{
+        text-align: center;
+    }
+
+    .list-couture{
+        color: #7C858A;
+        font-size: 1.2rem;
+    }
+
 }
 
 
@@ -275,6 +346,41 @@
         color: #658DC6;
     }
 
+    h5{
+        color: #658DC6;
+        font-size: 1.6rem;
+        margin-top:0 ;
+    }
+    #main_location{
+
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+    .location_card{
+        width: 95%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    }
+
+    .location_card img{
+        width: 50%;
+    }
+
+
+
+    #iframe_rent{
+        text-align: center;
+    }
+
+    .list-couture{
+        color: #7C858A;
+        font-size: 1.2rem;
+    }
+
+
 }
 
 
@@ -370,6 +476,39 @@
         color: #658DC6;
     }
 
+    h5{
+        color: #658DC6;
+        font-size: 1.6rem;
+        margin-top:0 ;
+    }
+    #main_location{
+
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+    .location_card{
+        width: 95%;
+        padding: 2%;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-bottom: 1%;
+    }
+
+    .location_card img{
+        width: 50%;
+    }
+
+
+
+    #iframe_rent{
+        text-align: center;
+    }
+
+    .list-couture{
+        color: #7C858A;
+        font-size: 1.2rem;
+    }
 
 
 }

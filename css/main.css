@@ -236,8 +236,13 @@ article p{
 
 .services_card{
 
+
     width: 90%;
 
+}
+
+.services_card, a{
+    text-decoration: none;
 }
 
 .modify-services{

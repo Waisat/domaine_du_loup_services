@@ -139,7 +139,7 @@ export const FolderImg=[{
         id:'',
         name:'Mode & couture',
         link:'./mode_couture/mode_couture.html',
-        img:'coutureSurmesure.jpg'
+        img:'coutureSurmesure.png'
 
     },
 
