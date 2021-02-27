@@ -9,7 +9,7 @@ export const FolderImg=[{
     {
         id:'',
         name:'Aide à domicile',
-        link:'./health/aideSoignant.html',
+        link:'./health/AidePersonne.html',
         img:'aide.jpg'
 
     },

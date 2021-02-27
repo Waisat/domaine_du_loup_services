@@ -273,6 +273,9 @@ article p{
 
     padding: 3% 3%;
 }
+    .services_article a{
+        text-decoration: none;
+    }
 
 .services_article ul{
     height: 8rem;
@@ -656,6 +659,9 @@ footer h6{
 
         padding: 3% 3%;
     }
+    .services_article a{
+        text-decoration: none;
+    }
 
     .services_article ul{
         height: 8rem;
@@ -1017,6 +1023,9 @@ footer h6{
 
         padding: 5% 5%;
     }
+    .services_article a{
+        text-decoration: none;
+    }
 
     .services_article ul{
         height: 8rem;
@@ -1217,6 +1226,9 @@ footer h6{
         display: none;
 
     }
+    .services_article a{
+        text-decoration: none;
+    }
 
     .services_nav li{
         padding: 2% 0;
@@ -1349,6 +1361,10 @@ footer h6{
         padding: 5% 5%;
     }
 
+    .services_article a{
+        text-decoration: none;
+    }
+
     .services_article ul{
         height: 8rem;
     }
@@ -1427,12 +1443,22 @@ footer h6{
 
     }
 
+
     #our_services_section ul li{
 
         font-family: 'Noto Serif', serif;
 
     }
 
+    #location_view{
+        display: flex;
+        flex-direction: column;
+    }
+    #skyVue img{
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
 
 
 
