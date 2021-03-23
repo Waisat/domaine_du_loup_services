@@ -224,6 +224,7 @@ article p{
 #bgc_services{
     padding: 5% 0;
     width: 100%;
+
     background-color: rgba(101, 141, 198, 0.1);
 }
 
@@ -636,6 +637,7 @@ footer h6{
     #bgc_services{
         padding: 5% 0;
         width: 100%;
+
         background-color: rgba(101, 141, 198, 0.1);
     }
 
