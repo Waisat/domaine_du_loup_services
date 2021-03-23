@@ -467,6 +467,7 @@
 
 
     .detail_section article p {
+        margin-top: 7%;
         text-align: justify;
         font-size: 90%;
         font-family: 'Roboto Slab', serif;
