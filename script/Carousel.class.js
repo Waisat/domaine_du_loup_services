@@ -58,34 +58,6 @@ export class CarouselClass {
 
             }
 
-      /*      switch (numberImg) {
-                case numberImg=4:
-                    createUl.style.padding = '0'
-                    createUl.style.width='20%';
-                   createImg.style.height='150px';
-                   createImg.style.borderRadius='10px';
-
-                    break;
-                case numberImg=3:
-                    createUl.style.width='30%';
-                    createImg.style.height='5vh';
-                    createImg.style.borderRadius='10px';
-
-                    break;
-                case  numberImg=2:
-                    createUl.style.width='40%';
-                    createImg.style.height='10vh';
-                    createImg.style.borderRadius='10px';
-                    break;
-                case numberImg=1:
-
-                    createUl.style.width='80%';
-                    createImg.style.height='20vh';
-                    createImg.style.borderRadius='10px';
-
-                    break;
-            } */
-
 
             let randomNum= this.getRandomImage(folderImg.length-1);
             let checkVerif= newArray.filter(el => (el.id === randomNum.toString()));

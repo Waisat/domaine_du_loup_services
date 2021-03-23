@@ -15,12 +15,17 @@ nav{
 
 }
 
+.padding-ul{
+    padding-left: 0;
+}
+
 
 h1{
    text-align: center;
     padding: 2% 0;
     font-size: 200%;
     color: #F4B894;
+    text-transform: uppercase;
 
 
     font-family: 'Merriweather', serif;
@@ -48,6 +53,7 @@ h2{
     font-size: 120%;
     text-align: center;
     color: #658DC6;
+    text-transform: uppercase;
 
 }
     #burger_svg{
@@ -77,10 +83,11 @@ h2{
     padding: 1% 2%;
 
     height: auto;
-    background-color: #0E487B;
+    background-color: #658DC6;
     position: absolute;
-    z-index: 0;
+    z-index: 2;
     display: none;
+    border-radius: 20px;
 }
 
 .services_nav li{
@@ -92,6 +99,7 @@ h2{
     width: 100%;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
 
@@ -274,6 +282,7 @@ article p{
     padding: 3% 3%;
 }
     .services_article a{
+        text-transform: uppercase;
         text-decoration: none;
     }
 
@@ -292,6 +301,7 @@ article p{
     color: #658DC6;
     font-family: 'Noto Serif', serif;
     font-size: 100%;
+    text-transform: uppercase;
 }
 
     #rentID p{
@@ -300,7 +310,7 @@ article p{
     }
 
     #rentID img{
-        padding-bottom: 10%;
+
 
     }
 
@@ -367,13 +377,15 @@ article p{
 }
 
 #skyVue, img{
-    width:90%
+    width:90%;
+    border-radius: 20px;
+
 }
 
 footer{
     position: relative;
     height: 4rem;
-    background-color: #0F4C81;
+    background-color: rgba(101, 141, 198, 0.1);
 }
 
 footer h6{
@@ -406,12 +418,17 @@ footer h6{
 
     }
 
+    .padding-ul{
+        padding-left: 0;
+    }
+
 
     h1{
         text-align: center;
         padding: 2% 0;
         font-size: 200%;
         color: #F4B894;
+        text-transform: uppercase;
 
 
         font-family: 'Merriweather', serif;
@@ -439,7 +456,7 @@ footer h6{
 
     h2{
 
-
+        text-transform: uppercase;
         font-size: 120%;
         text-align: center;
         color: #658DC6;
@@ -468,10 +485,11 @@ footer h6{
         padding: 1% 2%;
 
         height: auto;
-        background-color: #0E487B;
+        background-color: #658DC6;
         position: absolute;
-        z-index: 0;
+        z-index: 2;
         display: none;
+        border-radius: 20px;
     }
 
     .services_nav li{
@@ -483,6 +501,7 @@ footer h6{
         width: 100%;
         text-decoration: none;
         color: white;
+        text-transform: uppercase;
     }
 
 
@@ -660,6 +679,7 @@ footer h6{
         padding: 3% 3%;
     }
     .services_article a{
+        text-transform: uppercase;
         text-decoration: none;
     }
 
@@ -678,6 +698,7 @@ footer h6{
         color: #658DC6;
         font-family: 'Noto Serif', serif;
         font-size: 100%;
+        text-transform: uppercase;
     }
 
     #rentID p{
@@ -686,7 +707,7 @@ footer h6{
     }
 
     #rentID img{
-        padding-bottom: 10%;
+
 
     }
 
@@ -756,14 +777,16 @@ footer h6{
     }
 
     #skyVue, img{
-        width:90%
+        width:90%;
+        border-radius: 20px;
+
     }
 
 
     footer{
         position: relative;
         height: 4rem;
-        background-color: #0F4C81;
+        background-color: rgba(101, 141, 198, 0.1);
     }
 
     footer h6{
@@ -797,6 +820,10 @@ footer h6{
 
     }
 
+    .padding-ul{
+        padding-left: 0;
+    }
+
     h1{
         margin: 0 auto;
         text-align: center;
@@ -805,6 +832,7 @@ footer h6{
         color: #F4B894;
         width: 40%;
         font-family: 'Merriweather', serif;
+        text-transform: uppercase;
     }
 
 
@@ -830,6 +858,7 @@ footer h6{
 
 
     h2{
+        text-transform: uppercase;
         font-size: 100%;
         text-align: center;
         color: #658DC6;
@@ -866,10 +895,11 @@ footer h6{
         padding: 1% 2%;
         width: auto;
         height: auto;
-        background-color: #0E487B;
+        background-color: #658DC6;
         position: absolute;
-        z-index: 0;
+        z-index: 2;
         display: none;
+        border-radius: 20px;
     }
 
     .services_nav li{
@@ -880,6 +910,7 @@ footer h6{
         width: 100%;
         text-decoration: none;
         color: white;
+        text-transform: uppercase;
     }
 
     #health_hover, #wellness_hover, #habitation_hover, #association_hover, #mode_hover{
@@ -1024,6 +1055,7 @@ footer h6{
         padding: 5% 5%;
     }
     .services_article a{
+        text-transform: uppercase;
         text-decoration: none;
     }
 
@@ -1042,6 +1074,7 @@ footer h6{
         color: #658DC6;
         font-family: 'Noto Serif', serif;
         font-size: 100%;
+        text-transform: uppercase;
 
     }
 
@@ -1095,12 +1128,16 @@ footer h6{
         font-family: 'Noto Serif', serif;
 
     }
+    #skyVue, img{
+        width:90%;
+        border-radius: 20px;
 
+    }
 
     footer{
         position: relative;
         height: 4rem;
-        background-color: #0F4C81;
+        background-color: rgba(101, 141, 198, 0.1);
     }
 
     footer h6{
@@ -1134,6 +1171,9 @@ footer h6{
         display: flex;
         flex-direction: row-reverse;
     }
+    .padding-ul{
+        padding-left: 0;
+    }
 
     #burger_svg{
         display: block;
@@ -1158,6 +1198,7 @@ footer h6{
         color: #F4B894;
         width: 50%;
         font-family: 'Merriweather', serif;
+        text-transform: uppercase;
     }
 
     ul.mainNav{
@@ -1186,6 +1227,7 @@ footer h6{
         font-size: 100%;
 
         color: #658DC6;
+        text-transform: uppercase;
 
     }
 
@@ -1220,13 +1262,15 @@ footer h6{
 
         width: auto;
         height: auto;
-        background-color: #0E487B;
+        background-color: #658DC6;
         position: absolute;
-        z-index: 0;
+        z-index: 2;
         display: none;
+        border-radius: 20px;
 
     }
     .services_article a{
+        text-transform: uppercase;
         text-decoration: none;
     }
 
@@ -1239,6 +1283,8 @@ footer h6{
         width: 100%;
         text-decoration: none;
         color: white;
+        text-transform: uppercase;
+
 
     }
 
@@ -1309,8 +1355,9 @@ footer h6{
 
     section h4{
         font-size: 90%;
+        /*
         border-bottom: 25px #0E487B solid;
-        border-radius: 30px;
+        border-radius: 30px;*/
         width: 100%;
         padding-bottom: 4%;
         color: #658DC6;
@@ -1362,6 +1409,7 @@ footer h6{
     }
 
     .services_article a{
+        text-transform: uppercase;
         text-decoration: none;
     }
 
@@ -1380,6 +1428,7 @@ footer h6{
         color: #658DC6;
         font-family: 'Noto Serif', serif;
         font-size: 100%;
+        text-transform: uppercase;
 
     }
 
@@ -1458,14 +1507,19 @@ footer h6{
         width: 100%;
         text-align: center;
         padding: 5%;
+        border-radius: 20px;
     }
 
+    #skyVue, img{
+        width:90%;
+        border-radius: 20px;
 
+    }
 
     footer{
 
         height: 4rem;
-        background-color: #0F4C81;
+        background-color: rgba(101, 141, 198, 0.1);
     }
 
     footer h6{
