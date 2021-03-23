@@ -163,7 +163,7 @@ h2{
     }
 
     #toService{
-        margin-top: 2%;
+        margin:2% 0;
     }
 header{
     height: 100%;
@@ -586,7 +586,7 @@ footer h6{
     }
 
     #toService{
-        margin-top: 2%;
+        margin: 2% 0;
     }
     header{
         height: 100%;
@@ -1000,7 +1000,7 @@ footer h6{
     }
 
     #toService{
-        margin-top: 2%;
+        margin: 2% 0;
     }
 
     header{
@@ -1387,7 +1387,7 @@ footer h6{
     }
 
     #toService{
-        margin-top: 2%;
+        margin: 5% 0;
     }
     header{
         width: 100%;
