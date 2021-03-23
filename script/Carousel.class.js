@@ -8,7 +8,6 @@ export class CarouselClass {
         this.currentCarousel= currentCarousel;
         console.log('Folder Img', this.folderImg);
         this.generateCarousel( this.mainCarousel, this.currentCarousel, this.folderImg, this.numberImg);
-       // this.mouseHoverStop()
     }
 
     generateCarousel(mainCarousel, currentCarousel, folderImg, numberImg){
@@ -16,27 +15,19 @@ export class CarouselClass {
         const createBoard= document.createElement('div');
         let newArray=[];
         let rand;
-        let verified;
+
         let secondVerified=[];
-        let thirdVerified=[];
-        let checkArrayVerify=[];
+
 
         createBoard.id='mainSlides';
         grabIdCarousel.style.width='80%';
-       // grabIdCarousel.style.height='500px';
         grabIdCarousel.style.margin='0 auto';
         grabIdCarousel.appendChild(createBoard);
         createBoard.style.width='100%';
-       // createBoard.style.height='60%';
-        //createBoard.style.margin='0 auto';
-        //createBoard.style.backgroundColor='blue';
         createBoard.style.display='flex';
         createBoard.style.flexDirection='row';
         createBoard.style.justifyContent='space-between';
         createBoard.style.margin='0 auto';
-
-        console.log('grabCarousel', grabIdCarousel);
-
 
         for(let i=0; i<=numberImg -1; i++){
             const createUl= document.createElement('ul');
@@ -67,18 +58,15 @@ export class CarouselClass {
                         rand= Math.floor(Math.random()*((folderImg.length-1)));
                         secondVerified= newArray.filter(el => (el.id === rand.toString()));
 
-                        console.log('DO, Do')
+
                     }while (secondVerified.length !== 0 );
 
-                    console.log('this has been changed', folderImg[randomNum]);
+
                     newArray.push(folderImg[rand]);
-                    console.log('if', newArray);
-                    console.log('verif2', checkVerif);
+
                 } else {
                     newArray.push(folderImg[randomNum]);
 
-
-                    console.log('this condition while', newArray)
                 }
 
                 createBoard.appendChild(createUl);
@@ -150,7 +138,7 @@ export class CarouselClass {
             mainCarousel.push(previousCarousel[i])
         }
 
-        console.log('main of main carousel ', mainCarousel);
+
 
         if(mainCarousel.length >=16 ){
 
@@ -167,16 +155,14 @@ export class CarouselClass {
                     randNewArray= Math.floor(Math.random()* (folderImg.length)); //(retrait du -1 sur length)
                     checkCarouselAgain= mainCarousel.filter(el=>(el.id === randNewArray.toString()));
                     checkCurrentNewAgain=currentCarousel.filter(el=>(el.id === randNewArray.toString()));
-                    console.log('Do it again')
+
                 }while (checkCurrentNewAgain.length  || checkCarouselAgain.length !== 0);
                 currentCarousel.push(folderImg[randNewArray]);
 
-                console.log('current Carousel with if', currentCarousel);
-                console.log('while value to check', checkCarousel, checkCurrentDouble)
+
             }else{
                 currentCarousel.push(folderImg[randomCarousel]);
-                console.log('current Carousel with else', currentCarousel);
-                console.log('else value to check', checkCarousel, checkCurrentDouble)
+
             }
 
             for(let z=1; z <= 2; z++){
@@ -197,7 +183,6 @@ export class CarouselClass {
 
             }
 
-            console.log('current Carousel with while', currentCarousel)
 
         }
 
@@ -229,8 +214,6 @@ export class CarouselClass {
             this.setFadeIn(objectToFade, totalOpacity);
 
 
-                console.log('obj to fade', objectToFade)
-
         }else{
             totalOpacity= opacityReturn + Increase;
             objectToFade.style.opacity=totalOpacity.toString();
@@ -253,9 +236,7 @@ export class CarouselClass {
         const getDivCarousel= document.getElementById('carousel');
 
         getDivCarousel.addEventListener('mouseenter', function () {
-            console.log('timeOUt', timeOutCarousel);
             clearTimeout(timeOutCarousel);
-            console.log('mouse Hover');
 
         });
 
