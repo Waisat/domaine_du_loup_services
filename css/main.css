@@ -15,6 +15,11 @@ nav{
 
 }
 
+#serv_main{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .padding-ul{
     padding-left: 0;
 }
@@ -221,8 +226,9 @@ article p{
 
 
 #toLocation{
-    width: 10%;
-     margin-left: 80%;
+    padding: 0 1%;
+
+
  }
     #our_services_section{
 
@@ -230,6 +236,7 @@ article p{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
 
 
     }
@@ -419,6 +426,11 @@ footer h6{
 
 
     }
+    #serv_main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
     .padding-ul{
         padding-left: 0;
@@ -625,12 +637,12 @@ footer h6{
 
 
     #toLocation{
-        width: 10%;
-        margin-left: 80%;
+        padding: 0 1%;
+
     }
     #our_services_section{
 
-
+        width:100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -823,6 +835,11 @@ footer h6{
 
 
     }
+    #serv_main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
     .padding-ul{
         padding-left: 0;
@@ -1027,8 +1044,8 @@ footer h6{
     }
 
     #toLocation{
-        width: 10%;
-        margin-left: 80%;
+        padding: 0 1%;
+
     }
 
     .services_card{
@@ -1084,7 +1101,7 @@ footer h6{
 
     #our_services_section .button_action{
 
-        margin-top:3% ;
+        /*margin-top:3% ;*/
 
     }
 
@@ -1119,6 +1136,7 @@ footer h6{
     }
 
     #our_services_section{
+        width:100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1172,6 +1190,11 @@ footer h6{
     main{
         width: 100%;
     }
+    #serv_main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
     #mobile_flex{
         display: flex;
@@ -1440,7 +1463,7 @@ footer h6{
 
     #our_services_section{
 
-        width: 80%;
+        width: 100%;
         overflow: hidden;
     }
 
@@ -1464,8 +1487,8 @@ footer h6{
     }
 
     #toLocation{
-        width: 40%;
-        margin: 0 50%;
+        padding: 0 1%;
+
     }
 
     .button_action:hover{
@@ -1492,7 +1515,7 @@ footer h6{
 
     #our_services_section{
 
-
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
