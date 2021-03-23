@@ -338,6 +338,7 @@ article p{
     .button_action_card{
         margin-top: 10%;
        padding: 0.5% 0.5%;
+        border-radius: 20px;
 
         border: 2px solid #F4B894;
         background-color: #F4B894;
@@ -346,8 +347,11 @@ article p{
     }
 
     .button_action_card p{
+        padding-left: 2%;
+        color: white;
         text-align: center;
         margin: 0 auto;
+        font-size: 90%;
     }
 
 .button_action:hover{
@@ -744,7 +748,7 @@ footer h6{
     .button_action_card{
         margin-top: 10%;
         padding: 0.5% 0.5%;
-
+        border-radius: 20px;
         border: 2px solid #F4B894;
         background-color: #F4B894;
 
@@ -754,6 +758,9 @@ footer h6{
     .button_action_card p{
         text-align: center;
         margin: 0 auto;
+        color: white;
+        padding-left: 2%;
+        font-size: 90%;
     }
 
     .button_action:hover{
