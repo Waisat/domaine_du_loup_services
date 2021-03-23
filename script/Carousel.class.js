@@ -97,6 +97,7 @@ export class CarouselClass {
                     createElementH3.style.textAlign='center';
                     createElementH3.style.paddingBottom='5%';
                     createElementH3.style.width='100%'
+                    createElementH3.style.textTransform ='uppercase'
                     createElementH3.innerHTML=newArray[i].name;
 
                     if(numberImg === 2){
