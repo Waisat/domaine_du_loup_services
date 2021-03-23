@@ -178,6 +178,11 @@ h3{
     color: #F4B894;
 }
 
+    .detail_article_text div{
+        margin-bottom: 16%;
+    }
+
+
 section{
     padding: 2% 0;
     margin: 0 auto;
@@ -395,6 +400,7 @@ footer{
     position: relative;
     height: 4rem;
     background-color: rgba(101, 141, 198, 0.1);
+
 }
 
 footer h6{
@@ -463,7 +469,9 @@ footer h6{
 
     }
 
-
+    .detail_article_text div{
+        margin-bottom: 16%;
+    }
 
 
 
@@ -1157,6 +1165,9 @@ footer h6{
         border-radius: 20px;
 
     }
+    iframe{
+        width: 100%
+    }
 
     footer{
         position: relative;
@@ -1323,6 +1334,10 @@ footer h6{
 
     }
 
+    .detail_section{
+        margin-bottom: 40% ;
+    }
+
 
 
     #health_hover:hover  #health_nav{
@@ -1472,6 +1487,7 @@ footer h6{
         margin-top:3% ;
 
     }
+
     .width-button-article{
         padding: 5%;
     width: 90%;
@@ -1545,6 +1561,9 @@ footer h6{
         width:90%;
         border-radius: 20px;
 
+    }
+    iframe{
+        width: 100%;
     }
 
     footer{
