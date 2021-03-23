@@ -178,9 +178,7 @@ h3{
     color: #F4B894;
 }
 
-    .detail_article_text div{
-        margin-bottom: 16%;
-    }
+
 
 
 section{
@@ -397,6 +395,7 @@ article p{
 }
 
 footer{
+    margin-top: 16%;
     position: relative;
     height: 4rem;
     background-color: rgba(101, 141, 198, 0.1);
@@ -469,9 +468,6 @@ footer h6{
 
     }
 
-    .detail_article_text div{
-        margin-bottom: 16%;
-    }
 
 
 
@@ -808,6 +804,7 @@ footer h6{
 
 
     footer{
+        margin-top: 16%;
         position: relative;
         height: 4rem;
         background-color: rgba(101, 141, 198, 0.1);
