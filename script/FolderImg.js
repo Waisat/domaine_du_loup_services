@@ -143,6 +143,13 @@ export const FolderImg=[{
 
     },
 
+    {
+        id:'',
+        name:'Energeticienne',
+        link:'./health/energeticienne.html',
+        img:'energeticienne.jpg'
+
+    },
 
 ];
 

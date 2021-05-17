@@ -16,6 +16,7 @@
         margin: 25% 0 7% 0;
     }
 
+
     #local_toRent{
         padding: 7% 0;
     }
@@ -49,6 +50,9 @@
     .detail_section article ul li {
         list-style: none;
 
+    }
+    .detail_form ul li{
+        list-style-type: disc;
     }
 
     .detail_section article ul li img {
@@ -120,12 +124,59 @@
         text-align: center;
     }
 
-    .list-couture{
-        list-style: square;
+    .list-couture, .detail_form{
         color: #7C858A;
         font-size: 1.2rem;
     }
+    .detail_form {
+        width: 80%;
+        padding-left: 0;
+    }
+    .detail_form ul{
+        list-style-type: circle;
+    }
 
+    /* Slider detail danse*/
+    .slideshow {
+        width: 26%;
+        height: 400px;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .slideshow img{
+        border-radius: 0px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .slideshow ul {
+        /* 4 images donc 4 x 100% */
+        width: 400%;
+        height: 500px;
+        padding:0; margin:0;
+        list-style: none;
+    }
+
+    .title_energeticienne{
+        margin:3% 0 ;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .detail_form{
+        font-size: 100%;
+        width: 80%;
+        font-family: 'Roboto Slab', serif;
+        color: #7C858A;
+        padding-left: 0;
+    }
+    .detail_form li{
+        margin: 2% 0;
+    }
+    .slideshow li {
+        float: left;
+    }
 
 }
 
@@ -264,6 +315,54 @@
         font-size: 1.2rem;
     }
 
+    .detail_form {
+        width: 80%;
+
+    }
+
+
+
+    .slideshow {
+        margin: 0 auto 5% auto;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .slideshow img{
+        border-radius: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    .slideshow ul {
+        /* 4 images donc 4 x 100% */
+        width: 400%;
+        height: 300px;
+        padding:0; margin:0;
+        list-style: none;
+    }
+    .slideshow li {
+        float: left;
+    }
+    .title_energeticienne{
+        margin:3% 0 ;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .detail_form{
+        font-size: 90%;
+        width: 80%;
+        font-family: 'Roboto Slab', serif;
+        color: #7C858A;
+        padding-left: 0;
+    }
+
+    .detail_form li{
+        margin: 2% 0;
+    }
 }
 
 
@@ -279,6 +378,7 @@
 
     }
 
+
     .empty-association-data{
         margin: 25% 0 7% 0;
     }
@@ -290,6 +390,7 @@
     .detail_img_article{
         width: 50%;
         height: 20%;
+        margin: 0 auto;
     }
 
 
@@ -342,7 +443,7 @@
 
     .size_img{
         width: 100%;
-        margin: 0 50% 10% 50%;
+        margin: 0 auto;
         border-radius: 20px;
     }
 
@@ -395,7 +496,9 @@
         width: 50%;
     }
 
-
+    iframe{
+        width: 100%;
+    }
 
     #iframe_rent{
         text-align: center;
@@ -405,7 +508,53 @@
         color: #7C858A;
         font-size: 1.2rem;
     }
+    .detail_form {
+        width: 80%;
 
+    }
+
+
+
+    .slideshow {
+        margin: 0 auto 5% auto;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .slideshow img{
+        border-radius: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    .slideshow ul {
+        /* 4 images donc 4 x 100% */
+        width: 400%;
+        height: 300px;
+        padding:0; margin:0;
+        list-style: none;
+    }
+    .slideshow li {
+        float: left;
+    }
+    .title_energeticienne{
+        margin:3% 0 ;
+        font-size: 1.2rem;
+    }
+
+    .detail_form{
+        margin: 0 auto;
+        width: 90%;
+        font-family: 'Roboto Slab', serif;
+        color: #7C858A;
+        padding-left: 0;
+    }
+
+    .detail_form li{
+        margin: 2% 0;
+    }
 
 }
 
@@ -530,6 +679,9 @@
         width: 50%;
     }
 
+    iframe{
+        width: 100%;
+    }
 
 
     #iframe_rent{
@@ -540,8 +692,50 @@
         color: #7C858A;
         font-size: 1.2rem;
     }
+    .detail_form {
+        width: 80%;
 
+    }
 
+    /* Slider detail danse*/
+    .slideshow {
+        margin: 0 auto 5% auto;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .slideshow img{
+        border-radius: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    .slideshow ul {
+        /* 4 images donc 4 x 100% */
+        width: 400%;
+        height: 300px;
+        padding:0; margin:0;
+        list-style: none;
+    }
+    .slideshow li {
+        float: left;
+    }
+    .title_energeticienne{
+        font-size: 1.2rem;
+    }
+
+    .detail_form{
+        width: 90%;
+        font-family: 'Roboto Slab', serif;
+        color: #7C858A;
+        padding-left: 0;
+    }
+
+    .detail_form li{
+        margin: 2% 0;
+    }
 
 
 }

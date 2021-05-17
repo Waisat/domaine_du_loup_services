@@ -82,6 +82,7 @@ h2{
 
 
 .mainNav li :hover{
+    cursor: pointer;
     color: #F4B894;
 }
 .services_nav{
@@ -266,7 +267,7 @@ article p{
 
 .modify-services{
 
-   padding:0 5%;
+   padding:5% 5%;
 
 }
 
